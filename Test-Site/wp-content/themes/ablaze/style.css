@@ -7,15 +7,23 @@ Version: 1.0
 */
 
 @import url('bootstrap/css/bootstrap.min.css');
-@import url('defaults.css');
 @import url('featherlight/featherlight.css');
-@import url('ClearWebMGMT.css');
+
+
+@import url('defaults.css');
+
+
+
+
+
+
+
+
 
 
 /*-------------------------------------------------------------
 Temporary Styles 
 --------------------------------------------------------------*/
-
 
 #section-form-consult .form input, #section-form-consult .form textarea, #section-form-consult .form button {
 	font-size: 14px;
@@ -42,6 +50,13 @@ Temporary Styles
   transition: all .3s ease;
   }
 
+  
+  
+  
+  
+  
+  
+  
 
 /*--------------------------------------------------
 Styles for header above menu bar
@@ -52,30 +67,33 @@ Styles for header above menu bar
 	margin-left: 50px;
 }
 
-#logos-top .iconlinks  {/*sylize the top logo text*/
+/*Stylize the top logo text*/
+#logos-top .iconlinks  {
 	text-align: center;
 	color: #18669F;
 	line-height: 100px;
-	/*font-family: 'brandon-grotesque';*
-	font-family: font-family: 'Dosis', sans-serif;*/
 	font-size: 12px;
-	/*font-weight: 700;*/
 	letter-spacing: 2px;
 	text-transform: uppercase;
 }
-#logos-top .iconlinks a:hover {/*remove underline from links*/
+
+/*remove underline from links*/
+#logos-top .iconlinks a:hover {
 	text-decoration: none;
 }
-#logos-top .iconlinks a img {/*small icons next to text*/
+/*small icons next to text*/
+#logos-top .iconlinks a img {
 	vertical-align: middle;
 	height: 23px;
 	margin-right: 4px;
 }
-#logos-top .iconlinks#social a img{ /*facebook and twitter links*/
+/*Facebook and Twitter links*/
+#logos-top .iconlinks#social a img{ 
 	height: 40px;
 	margin: 10px;
 }
-#logos-top .iconlinks#phone /* making the full phone # fit */{
+/* making the full phone # fit */
+#logos-top .iconlinks#phone {
 	padding: 2px;	
 }
 /*Resizing a bit on super small screens (iphone 4)*/
@@ -87,7 +105,8 @@ Styles for header above menu bar
 		height: 11px;
 	}
 }
-@media (max-width: 1309px) {/*remove 2 of 4 logos on smaller screens*/
+/*remove 2 of 4 logos on smaller screens*/
+@media (max-width: 1309px) {
 	#logos-top #headericons #login, #logos-top #headericons #livechat {		display: none;
 	}
 	#logos-top #headericons #phone, #logos-top #headericons #social {
@@ -97,6 +116,16 @@ Styles for header above menu bar
 		margin: 0;		
 	}
 }
+
+
+
+
+
+
+
+
+
+
 
 /*--------------------------------------------------------------
 3.0 Styles for Responsive Menu
@@ -247,8 +276,9 @@ a.button.large {
 	}
 
 
-/* --------
-----MAKING THE SLIDE BACKGROUNDS FIXED ----------*/
+/* -----------------------------------
+----MAKING THE SLIDER BACKGROUNDS FIXED 
+------------------------------------*/
 #myCarousel .carousel-inner {
 	height: 400px;
 	background-color: #000;
@@ -339,8 +369,6 @@ margin-bottom: 40px;
 .home-features .col-md-4 {
 	padding-bottom: 70px;
 }
-
-
 .home-full-width-image {
 	background-color: transparent;
 	background-image: url('img/homepage/building-interior.jpg');
@@ -349,17 +377,16 @@ margin-bottom: 40px;
 	text-align: center;
 	background-attachment: fixed;
 }
-
 .black-transparent {
 	background: rgba(0,0,0,0.75);
 	padding: 40px 40px 60px;
 }
 .black-transparent h2 {font-size: 26px;}
 .black-transparent h2.yellow {
-	/*font-weight: 400; */ 
 	text-transform: uppercase;
 	}
 
+	
 /*-----------------------
 Homepage image gallery 
 ------------------------*/
@@ -409,8 +436,8 @@ Homepage image gallery
 div.divider {
 clear: both;
 }
-
-.subpage .sub-hero {/*stylizing the subpage hero image div*/
+/*stylizing the subpage hero image div*/
+.subpage .sub-hero {
 	background-color: transparent;
 	background-position: top center;
 	background-size: cover;
@@ -426,21 +453,18 @@ clear: both;
 .subpage #subpage-content h2{
 	margin-top: 40px;
 }
-
 .subpage hr {
 	border: 0;
 	border-bottom: 1px dashed #ccc;
 	background: #999;
 	clear:both;
 }
-
 ul.greenchecks li {
 	background: url(http://ablaze-wp.cambiostage.com/wordpress/wp-content/themes/ablazeenergy/img/check.png) left 0% top 4px / 13px no-repeat;
 	list-style: none;
 	padding-left: 25px;
 }
 img.circleimg {border-radius: 9999px;}
-
 .circlenumbers:before{
 	border: 1px solid #1F689D;
 	font-weight: 900;
@@ -567,12 +591,9 @@ p.postlisttag:before{
 	border-style:solid;
 	border-color: transparent #fff transparent transparent;
 }
-
 .posttags p {
 	display:inline-block
 }
-
-
 .blogpage .postinlist a.moretag {
 	display: inline-block;
 	padding: 2px 5px;
@@ -585,7 +606,7 @@ p.postlisttag:before{
 	text-decoration: none;
 }
 
-/*Sidebar Styles---------*/
+/*-----------------Sidebar Styles---------*/
 .blogpage #blog-sidebar.widget-area #searchform .screen-reader-text {
 display: none;
 }
@@ -616,10 +637,8 @@ display: none;
 
 
 
-
-
 /*-----------------------------------------------
-LeadGen Form styles 
+Sidebar LeadGen Form styles 
 ----------------------------*/
 
 #leadgenform {
@@ -654,20 +673,28 @@ LeadGen Form styles
 }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*--------------------------------------------------------------
 5.1 Styles for Residential Solar Page
 --------------------------------------------------------------*/
-/*Make carousel accomodate taller images *
-.subpage .testimonialcarousel .carousel-inner > .item {
-	max-height:600px;
-	width:auto;
-}
+
 /*deal with overlay on smaller screens*/
 
 .testimonials .lightbox-overlay {
 	
 }
-
 /*dealing with overlay on smaller screens*/
 @media screen and (max-width:991px) {
 	.testimonialcarousel .carousel-caption {
@@ -680,16 +707,13 @@ LeadGen Form styles
 	}
 }
 
-
 .row.gray .img-responsive {
     padding:10px;
 }
-
 .row.gray img {
     margin:0 auto;
 }
 .testimonials h2{ clear:both; }
-
 .testimonials .col-md-4>h2 { text-align: center; } 
 .subpage .testimonialcarousel .carousel-inner .carousel-caption {
 	top: 60px;
@@ -708,33 +732,25 @@ LeadGen Form styles
     margin:0;
     font-size:42px;
 }
-
 .subpage .testimonialcarousel .carousel-inner > .item .carousel-caption h3 {
-    /*font-weight:200;*/
     text-align:right;
     font-size:19px;
 }
-*/
 .subpage .testimonialcarousel .carousel-inner > .item .carousel-caption h3 span{
     text-align:right;
     font-size:19px;
     color:#fff;
 }
-
 .subpage .testimonialcarousel .carousel-inner > .item .carousel-caption h3.heavy {
-    /*font-weight:400;*/
     color:#F1C229 !important;
 } 
-
 .subpage .testimonialcarousel .carousel-inner > .item .carousel-caption h3.heavy span{
     color:#F1C229 !important;
 }
-
 .subpage .testimonialcarousel .carousel-inner > .item .carousel-caption .row {
     height:35px;
     padding-left:15px;
 }
-
 .subpage .testimonialcarousel h2.testimonial {
 	font-size: 30px;
 	text-align: left;
@@ -748,26 +764,17 @@ LeadGen Form styles
 	border-radius: 900px;
 	background: rgba(0,0,0,.6);
 	opacity: 0;
-	transition: all .2s ease;
-	
+	transition: all .2s ease;	
 }
-/*Ugly fix to hover on testimonial circles:*
-#testimonials .lightbox-overlay {
-	margin: 0 65px;
-}*/
 .lightbox-overlay:hover {
 	opacity: 1;
 	cursor: pointer;
 }
-
-
-
 .lightbox-overlay h3 {
 	text-align: center;
 	line-height: 190px;
 	font-size: 18px !important;
 	color: #fff;
-	/*font-weight: 200;*/
 }
 #kinseytestimonial .testimonial-image {
 	margin: 0 auto;
@@ -779,35 +786,6 @@ LeadGen Form styles
 	height: 220px !important;
 	width: 220px !important;
 }
-
-
-
-/*
-@media screen and (max-width:991px) {
-.lightbox-overlay {
-    margin:0 5px !important;
-    width:200px;
-}
-.lightbox-overlay h3 {
-    line-height:170px;
-    font-size:17px !important;
-}
-}
-
-@media screen and (max-width:767px) {
-.lightbox-overlay {
-    width:220px;
-    margin:0 75px !important;
-}  
-.lightbox-overlay h3 {
-    text-align:center;    
-    line-height:190px;
-    font-size:20px !important;
-    color:#fff;
-    /*font-weight:200;*//*
-}  
-}
-*/
 
 
 @media screen and (max-width:991px) {
@@ -826,35 +804,17 @@ LeadGen Form styles
     font-size:20px !important;
     color:#fff;
     text-shadow:1px 1px 1px #000;
-    /*font-weight:300;*/
 }  
 }
-/*
-.subpage .testimonialcarousel .carousel-inner {
-    height: auto;
-    background: #000;
-}
-.subpage .testimonialcarousel .carousel-inner > .item {
-    height: 450px;
-    width:100%;
-}*/
 
 
-/*--------------------------------------------------------------
-5.1 Styles for Landing Page
---------------------------------------------------------------*/	
-#landingpage #compliance-disclaimer p{
-	font-size: 9px;
-	text-align: center;
-}
-
- 
 
 
  
  
  
  
+
 /*--------------------------------------------------------------
 5.1 Styles for FAQ Pages
 --------------------------------------------------------------*/
@@ -1015,17 +975,5 @@ footer .footerbox ul li a:hover {
 	color: rgba(255,255,255,0.65);
 	text-decoration: none;
 	}
-
-
-
-
-
-
-
-
-
-
-
-
 
 
