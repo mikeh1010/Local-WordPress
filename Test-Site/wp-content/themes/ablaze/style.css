@@ -166,13 +166,86 @@ Styles for header above menu bar
 #bluenavbar .navbar-toggle:hover, #bluenavbar .navbar-toggle:focus { background-color: rgba(255,255,255,0.65); }
 #bluenavbar .navbar-toggle:hover .icon-bar, #bluenavbar .navbar-toggle:focus .icon-bar {	background-color: #1F689D; }
 
+/*Indent sub-menus and open sub-sub-menu when sub-menu is open*/
+#bluenavbar  .navbar-nav>.parent.open ul.sub-menu { 
+	margin-left: 10px;
+	}
+#bluenavbar  .navbar-nav>.parent.open ul.sub-menu ul.sub-sub-menu  { 
+	display: block; 
+	margin-left: 20px;
+	} 
+/*Use dropdown icons, inverted when open on mobile*/
+#bluenavbar ul.navbar-nav li.parent>a {
+		background: url(img/icon-nav-arrow@2x.png) right center no-repeat;
+		background-size: 10px;/*size of the dropdown icon called directly above*/
+	}
+#bluenavbar ul.navbar-nav li.parent.open>a {
+		background: url(img/inverted-icon-nav-arrow@2x.png) right center no-repeat;
+		background-size: 10px;
+}
+/*Put dropdown icon on the left in drawer menu */
+#bluenavbar ul.navbar-nav li.parent.open ul.sub-menu>li.parent>a { 
+		background: url(img/icon-nav-arrow@2x.png) left center no-repeat;
+		background-size: 10px;
+		padding-left: 15px;
+		margin-left: 25px;
+}
+
+
+/*Expand all menus on mobile */
+@media (max-width: 767px) {
+	.submenu, .sub-sub-menu { display: block;}
+
+
+}
+
+
+/*-------------------------------------------
+NON-mobile hover menu for large screens
+---------------------------------------------*/
+@media (min-width: 768px) {
+	/*A lot of styles are already imposed by Bootstrap's "dropdown-menu" class: position: absolute, top: 100%, margin, z-index, list-style, etc*/	
+
+	.navbar-brand {/*hide when not on mobile*/
+		display:none;
+	}		
+	/*Show dropdown menu on hover instead of Bootstrap default of showing on click*/
+	#bluenavbar .navbar-nav li.parent:hover ul.sub-menu, #bluenavbar .navbar-nav ul.sub-menu li.parent:hover ul.sub-sub-menu {
+		display: block;
+		margin-left: 0; /*clearing margin from lines 253 and 256 above*/
+	}		
+	#bluenavbar .navbar-nav li.parent ul { 
+		background: rgba(31,104,157,.9);/*semi-transparent submenu color - also because sub-menus don't inherit from containing element*/		
+		padding: 0;/*Overruling Bootstrap which gives 2px on top and bottom, causes momentarily loss of mouse clickability*/
+		border: none;		
+		border-radius: 0px;/*to clear Bootstrap 4px radius*/				
+		box-shadow: none;/*to clear bootstrap shadows*/	
+		-webkit-box-shadow: none; 
+		margin: 0; /*to clear Bootstrap top margin*/ 		
+	}
+	
+	#bluenavbar ul.navbar-nav li.parent {position:relative;}/*allows the li's sub-sub-menu to be aligned with its parent*/
+	#bluenavbar .navbar-nav ul.sub-menu ul.sub-sub-menu {
+		left:100%;/*place sub-sub-menu on the right edge of sub-menu*/
+		top:0%;/*Places level of sub-sub-menu top at level of its parent top(instead of below)*/
+	}
+	#bluenavbar .navbar-nav li.parent ul li { /*put some room on sides of submenu items*/
+		padding-right: 20px;
+		padding-left: 5px;
+	}
+	#bluenavbar ul.navbar-nav li a{ background: inherit;}/*clear Bootstrap background color*/		
+		
+}
+
+
+
 /*Hide 'menu' label when not on mobile*/
 @media (min-width: 767px) {
 	.navbar-brand {
 			display:none;
 		}
 	}
-
+	
 /*Shrink menu on smaller screens to maintain one line: */
 @media (max-width: 991px) and (min-width: 767px) {
 	#bluenavbar ul.navbar-nav li a{
