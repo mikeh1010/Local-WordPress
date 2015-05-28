@@ -476,6 +476,103 @@ img.circleimg {border-radius: 9999px;}
 /*-----------------------------------------------
 Blog Page Styles
 ----------------------------------------------*/
+.postinlist {
+	overflow:hidden;
+	background-color:#fff;
+	border-radius:10px;
+	margin-bottom: 30px;
+	padding:10px;
+	position:relative;
+}
+
+.postheading {
+	margin:0px 0px;
+	padding: 0 15px;
+}
+
+.postlisttitle {
+	margin-top:0px;
+	margin-bottom:2px;
+	text-align: left;
+}
+
+.postlistimg img {
+	width:100%;
+	height:auto;
+	border-radius:15px;
+	margin:2px 0;
+}
+
+.postlistimg {
+	padding:0;
+}
+
+.postlistexcerpt {
+	text-align:left;
+	font-family:'Droid Sans', serif;
+	color:#8B6547;
+	font-size:20px;
+	line-height: 175%;
+	overflow:hidden;
+	padding: 0 15px;
+}
+
+.postlistexcerpt p {
+	margin-bottom:25px;
+}
+
+.nav-next, .nav-previous {
+	padding:5px;
+	border:1px grey;
+	text-align:center;
+	display:inline-block;
+}
+
+.nav-next {
+	float:right;
+}
+
+p.postlisttag {
+	position: absolute;
+	right:20px;
+	top:20px;
+	padding: 0px 10px;
+	text-shadow: 0px 1px 2px #bbb;
+	-webkit-box-shadow: 0px 2px 4px #888;
+	-moz-box-shadow: 0px 2px 4px #888;
+	box-shadow: 0px 2px 4px #888;
+	color:#fff;
+}
+
+p.postlisttag:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 0px;
+	top: 100%;
+	border-width: 3px 6px;
+	border-style: solid;
+	border-color: #666 #666 transparent transparent;
+}
+
+p.postlisttag:before{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	right: -8px;
+	top: -5px;
+	border-width:15px 13px;
+	border-style:solid;
+	border-color: transparent #fff transparent transparent;
+}
+
+.posttags p {
+	display:inline-block
+}
+
+
 .blogpage .postinlist a.moretag {
 	display: inline-block;
 	padding: 2px 5px;
@@ -817,6 +914,47 @@ LeadGen Form styles
 	font-weight: 300;
 }
 
+
+
+
+
+
+
+
+
+
+/*-----------------------
+Friends of Solar Signup page styles 
+------------------------*/
+#referralform .formheader h1{
+	text-transform: uppercase;
+	color: #1f689D;
+}
+#referralform  h2{
+	font-size: 28px;
+}
+#referralform .formheader h3{
+	font-size: 24px;
+}
+#referralform #SpencersFormHolder { 
+	max-width: 510px;
+	width: auto;
+	margin-top: 0;
+	}
+
+
+
+
+	
+
+
+
+
+	
+	
+	
+	
+	
 
 /*--------------------------------------------------------------
 5.0 Styles for Footer
