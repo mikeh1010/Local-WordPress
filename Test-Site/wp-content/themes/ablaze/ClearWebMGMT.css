@@ -1,0 +1,324 @@
+/*ClearWeb MGMT styles
+
+Written by: Mike Hayes */
+
+
+
+
+/* MAKING THE SLIDE BACKGROUNDS FIXED --------------------*/
+
+#myCarousel1 .carousel-inner {
+	height: 400px;
+	background-color: #000;
+}
+#myCarousel1 .carousel-inner .item {
+	position:absolute;
+	height: 400px;
+	background-color: transparent;
+	/*background-image:url('img/slider/investment-slider.jpg');*/
+	background-position: top;
+	background-size: cover;
+	text-align: center;
+	background-attachment: fixed;	
+	width:100%;
+	top:0;
+		-webkit-transition:left .6s ease-in-out;
+	transition:left .6s ease-in-out;
+	left:0;
+	}
+#myCarousel1 .carousel-inner>.active, #myCarousel1 .carousel-inner>.next, #myCarousel1 .carousel-inner>.prev {
+
+	}
+#myCarousel1 .carousel-inner>.next{left:100%}
+#myCarousel1 .carousel-inner>.prev{left:-100%}
+#myCarousel1 .carousel-inner>.next.left, #myCarousel1 .carousel-inner>.prev.right{left:0}
+#myCarousel1 .carousel-inner>.active.left{left:-100%}
+#myCarousel1 .carousel-inner>.active.right{left:100%}
+ 
+
+/*Clear out the conflicts that break fixed slides*/
+#myCarousel1 .carousel-inner .item { 
+	-webkit-backface-visibility: initial;
+	backface-visibility: initial;
+	-webkit-transform: initial;
+	transform: initial;
+}
+
+
+#myCarousel1 .carousel-inner .item#solarenergy {
+	background-image: url('img/slider/solarenergy-slider.jpg')
+}
+#myCarousel1 .carousel-inner .item#referral {
+	background-image: url('img/slider/referral-slider.jpg')
+}
+#myCarousel1 .carousel-inner .item#lighting {
+	background-image: url('img/slider/lighting-slider.jpg')
+}
+#myCarousel1 .carousel-inner .item#investment {
+	background-image: url('img/slider/investment-slider.jpg')
+}
+#myCarousel1 .carousel-inner .item#installers {
+	background-image: url('img/slider/installers-slider.jpg')
+}
+#myCarousel1 .carousel-inner .item#charity {
+	background-image: url('img/slider/charity-slider.jpg')
+}
+/* End of Slider ----------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*LeadGen Form styles */
+#leadgenform {
+  border-radius: 5px;
+  background: #f5f5f5;
+  border: 1px solid #e5e5e5;
+}
+#leadgenform p {
+	margin-bottom: 10px;
+}
+#leadgenform input {
+	max-width:100%;
+	padding-left: 3px;
+}
+#leadgenform .wpcf7-submit {
+	width: 100%;
+	background-color:#1F689D;
+	color: white;
+	text-transform: uppercase;
+	border-radius: 10px;
+}
+
+
+
+
+/*Referral Form Styles */
+#referralform .formheader h1{
+	text-transform: uppercase;
+	color: #1f689D;
+}
+#referralform  h2{
+	font-size: 28px;
+}
+#referralform .formheader h3{
+	font-size: 24px;
+}
+
+#referralform #SpencersFormHolder { 
+	max-width: 510px;
+	width: auto;
+	margin-top: 0;
+	}
+
+.bignumber.one:before {
+	content: "1";
+}	
+.bignumber.two:before {
+	content: "2";
+}	
+.bignumber.three:before {
+	content: "3";
+}	
+.bignumber.four:before {
+	content: "4";
+}		
+.bignumber:before {
+	border: 5px solid grey;
+	font-weight: 900;
+	font-size: 20px;
+	color: #F1C027;
+	padding: 1px 10px;
+	margin-right: 10px;
+	border-radius: 100px;
+}
+
+
+
+/*move free quote to the left side*/
+.content .footer-cta a {
+	left:30px;
+	display:none;
+}
+.footer .live-chat-button {
+	display: none;
+}
+
+img { max-width: 100%;
+	height: auto;
+	}
+
+.content ul, .content ol {
+	margin-left: 30px;
+}
+ul li { list-style-type: circle; }
+ol li { list-style-type: decimal;}
+
+h2.title {
+	margin-top: 40px;
+}
+
+.content .landingpage .container ul {
+font-size:16px;
+margin-left:5px;
+
+}
+.content .landingpage .container ul li {
+	background: url(http://ablaze-wp.cambiostage.com/wordpress/wp-content/themes/ablazeenergy/img/check.png) left 0% top 4px / 13px no-repeat;
+	padding-left: 25px;
+	margin: 10px 0px;
+	font-style: italic;
+	list-style-type: none;
+}
+
+.content .landingpage .container #compliance-disclaimer {
+	text-align: center;
+	clear: both;
+	width:85%;
+}
+
+img.aligncenter {
+	display: block;
+	margin: 0 auto;
+}
+
+.landingpage #compliance-disclaimer p{
+	font-size: 9px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Blog Styles -----------------------------*/
+.postinlist {
+overflow:hidden;
+background-color:#fff;
+border-radius:10px;
+margin-bottom: 30px;
+padding:10px;
+position:relative;
+}
+.postheading {
+	margin:0px 0px;
+	padding: 0 15px;
+}
+.postlisttitle {
+margin-top:0px;
+margin-bottom:2px;
+text-align: left;
+}
+.postlistimg img {
+width:100%;
+height:auto;
+border-radius:15px;
+margin:2px 0;
+}
+.postlistimg {
+padding:0;
+}
+.postlistexcerpt {
+text-align:left;
+font-family:'Droid Sans', serif;
+color:#8B6547;
+font-size:20px;
+line-height: 175%;
+overflow:hidden;
+padding: 0 15px;
+}
+.postlistexcerpt p {
+margin-bottom:25px;
+}
+.nav-next, .nav-previous {
+padding:5px;
+border:1px grey;
+text-align:center;
+display:inline-block;
+}
+.nav-next {
+float:right;
+}
+p.postlisttag {
+	position: absolute;	
+	right:20px;
+	top:20px;
+
+	padding: 0px 10px;
+	text-shadow: 0px 1px 2px #bbb;
+	-webkit-box-shadow: 0px 2px 4px #888;
+	-moz-box-shadow: 0px 2px 4px #888;
+	box-shadow: 0px 2px 4px #888;
+	color:#fff;
+}
+p.postlisttag:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 0px;
+	top: 100%;
+	border-width: 3px 6px;
+	border-style: solid;
+	border-color: #666 #666 transparent transparent;
+}
+p.postlisttag:before{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	right: -8px;
+	top: -5px;
+	border-width:15px 13px;
+	border-style:solid;
+	border-color: transparent #fff transparent transparent;
+}
+.posttags p {
+display:inline-block
+}
+
+p.postlisttag.Dessert {
+background-color:f987ba;
+}
+p.postlisttag.Yoga {
+background-color:blue;
+}
+p.postlisttag.Musings, p.postlisttag.Musing {
+background-color:purple;
+}
+p.postlisttag.Yoga {
+background-color:blue;
+}
+p.postlisttag.Bread{
+background-color:gold;
+}
+p.postlisttag.Breakfast{
+background-color:#66d4f6;
+}
+p.postlisttag.Salad {
+background-color:green;
+}
+p.postlisttag.Curry {
+background-color:#cc9ea4;
+}
+.comment-form-comment label{
+vertical-align: top;
+}
+
