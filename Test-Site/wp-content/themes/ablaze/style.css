@@ -59,105 +59,32 @@ Temporary Styles
     -o-background-size: cover;
     background-size: cover;
 }
-/*.testimonialcarousel .item { height: 600px;}*/
-.ad1 {
-    background: url(img/slider/solarenergy-slider.jpg) no-repeat center center ; 
-}
-.ad2 {
-    background: url(img/slider/referral-slider.jpg) no-repeat center center ; 
-}
-.ad3 {
-    background: url(img/slider/lighting-slider.jpg) no-repeat center center ; 
-}
-.ad4 {
-	background: url(img/slider/investment-slider.jpg) no-repeat center center ; 
-}
-.ad5 {
-	background: url(img/slider/installers-slider.jpg) no-repeat center center ; 
-}
-.ad6 {
-	background: url(img/slider/charity-slider.jpg) no-repeat center center ; 
-}	
-  
-.ad10 {
-    background: url(img/subpages/testimonial-quinn.jpg) no-repeat center center ; 
-}
-.ad11 {
-    background: url(img/subpages/testimonial-virginia.jpg) no-repeat center center ; 
-}
- .ad12 {
-    background: url(img/subpages/testimonial-karen.jpg) no-repeat center center ; 
-}
-  
-  
-  
-  
-  
-/*
-.sidebar-nav {
-    padding: 9px 0;
-}
-
-.dropdown-menu .sub-menu {
-    left: 100%;
-    position: absolute;
-    top: 0;
-    visibility: hidden;
-    margin-top: -1px;
-}
-
-.dropdown-menu li:hover .sub-menu {
-    visibility: visible;
-}
-
-.dropdown:hover .dropdown-menu {
-    display: block;
-}
-
-.nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
-    margin-top: 0;
-}
-
-.navbar .sub-menu:before {
-    border-bottom: 7px solid transparent;
-    border-left: none;
-    border-right: 7px solid rgba(0, 0, 0, 0.2);
-    border-top: 7px solid transparent;
-    left: -7px;
-    top: 10px;
-}
-.navbar .sub-menu:after {
-    border-top: 6px solid transparent;
-    border-left: none;
-    border-right: 6px solid #fff;
-    border-bottom: 6px solid transparent;
-    left: 10px;
-    top: 11px;
-    left: -6px;
-}
-  
-
 
 
 
 /*--------------------------------------------------------------
 3.0 Styles for Responsive Menu
 --------------------------------------------------------------*/
-#bluenavbar  {/*color the blue container bar*/
+/*Make all menus unstyled lists */
+.menulist li {
+	list-style: none;
+}
+/*color the blue container bar*/
+#bluenavbar  {
 	background: #1F689D;
 	border-top: 1px solid #065682;
 	clear: both; 
 }
-#bluenavbar .navbar-default {/*clear bootstrap styling of menu container*/
-	background: initial;
+/*clear Bootstrap styling of menu container*/
+#bluenavbar .navbar-default {
+	background: inherit;
 	border: none;
 	margin-bottom: 0;
 }
-#bluenavbar li a, #bluenavbar .navbar-brand {/*style the menu text*/
+/*style the menu text*/
+#bluenavbar li a, #bluenavbar .navbar-brand {
 	background: #1F689D;
-	color: rgba(255,255,255,0.65);
-	font-family: 'brandon-grotesque';/*
-	font-family: font-family: 'Dosis', sans-serif;*/
+	color: rgba(255,255,255,0.65);	
 	text-transform: uppercase;	
 	letter-spacing: 1px;
 	font-size: 15px;
@@ -165,94 +92,24 @@ Temporary Styles
 	text-decoration: none;
 	padding-top: 0;
 	padding-bottom: 0;
+
 	border-bottom: 1px solid rgba(255,255,255,0.2);
 }
-/*Remove underline from top menu and last child*/
-#bluenavbar .navbar-nav li:last-child>a { border-bottom: 0; }
-#parentmenu>li>a { border-bottom: 0; }
 /*Make links white on hover*/
 #bluenavbar li a:hover {
 	color: #fff;
 }
-
+/*Hide 'menu' label when not on mobile*/
+.navbar-brand {
+		display:none;
+	}
 /*Color the Bootstrap 'menu' icon'*/
 #bluenavbar .icon-bar { background-color: rgba(255,255,255,0.65);}
 #bluenavbar .navbar-toggle:hover, #bluenavbar .navbar-toggle:focus { background-color: rgba(255,255,255,0.65); }
 #bluenavbar .navbar-toggle:hover .icon-bar, #bluenavbar .navbar-toggle:focus .icon-bar {	background-color: #1F689D; }
 
-
-
-/*Indent sub-menus and open sub-sub-menu when sub-menu is open*/
-#bluenavbar  .navbar-nav>.parent.open ul.sub-menu { 
-	margin-left: 10px;
-	}
-#bluenavbar  .navbar-nav>.parent.open ul.sub-menu ul.sub-sub-menu  { 
-	display: block; 
-	margin-left: 20px;
-	} 
-/*Use dropdown icons, inverted when open on mobile*/
-#bluenavbar ul.navbar-nav li.parent>a {
-		background: url(img/icon-nav-arrow@2x.png) right center no-repeat;
-		background-size: 10px;/*size of the dropdown icon called directly above*/
-	}
-#bluenavbar ul.navbar-nav li.parent.open>a {
-		background: url(img/inverted-icon-nav-arrow@2x.png) right center no-repeat;
-		background-size: 10px;
-}
-/*Put dropdown icon on the left in drawer menu */
-#bluenavbar ul.navbar-nav li.parent.open ul.sub-menu>li.parent>a { 
-		background: url(img/icon-nav-arrow@2x.png) left center no-repeat;
-		background-size: 10px;
-		padding-left: 15px;
-		margin-left: 25px;
-}
-
-
-/*Expand all menus on mobile */
-@media (max-width: 767px) {
-	.submenu, .sub-sub-menu { display: block;}
-
-
-}
-
-
-/*-------------------------------------------
-NON-mobile hover menu for large screens
----------------------------------------------*/
-@media (min-width: 768px) {
-	/*A lot of styles are already imposed by Bootstrap's "dropdown-menu" class: position: absolute, top: 100%, margin, z-index, list-style, etc*/	
-
-	.navbar-brand {/*hide when not on mobile*/
-		display:none;
-	}		
-	/*Show dropdown menu on hover instead of Bootstrap default of showing on click*/
-	#bluenavbar .navbar-nav li.parent:hover ul.sub-menu, #bluenavbar .navbar-nav ul.sub-menu li.parent:hover ul.sub-sub-menu {
-		display: block;
-		margin-left: 0; /*clearing margin from lines 253 and 256 above*/
-	}		
-	#bluenavbar .navbar-nav li.parent ul { 
-		background: rgba(31,104,157,.9);/*semi-transparent submenu color - also because sub-menus don't inherit from containing element*/		
-		padding: 0;/*Overruling Bootstrap which gives 2px on top and bottom, causes momentarily loss of mouse clickability*/
-		border: none;		
-		border-radius: 0px;/*to clear Bootstrap 4px radius*/				
-		box-shadow: none;/*to clear bootstrap shadows*/	
-		-webkit-box-shadow: none; 
-		margin: 0; /*to clear Bootstrap top margin*/ 		
-	}
-	
-	#bluenavbar ul.navbar-nav li.parent {position:relative;}/*allows the li's sub-sub-menu to be aligned with its parent*/
-	#bluenavbar .navbar-nav ul.sub-menu ul.sub-sub-menu {
-		left:100%;/*place sub-sub-menu on the right edge of sub-menu*/
-		top:0%;/*Places level of sub-sub-menu top at level of its parent top(instead of below)*/
-	}
-	#bluenavbar .navbar-nav li.parent ul li { /*put some room on sides of submenu items*/
-		padding-right: 20px;
-		padding-left: 5px;
-	}
-	#bluenavbar ul.navbar-nav li a{ background: inherit;}/*clear Bootstrap background color*/		
-		
-}
-@media (max-width: 991px) and (min-width: 767px) {/*keep menu as one-line on medium screens*/
+/*Make sure menu stays just one line tall on all screen sizes: */
+@media (max-width: 991px) and (min-width: 767px) {
 	#bluenavbar ul.navbar-nav li a{
 		font-size: 11px;
 		margin: 0;
@@ -261,12 +118,12 @@ NON-mobile hover menu for large screens
 		margin: 0;
 	}	
 }
-@media (min-width: 992px) { /*keep menu as one-line on medium screens*/
+@media (min-width: 992px) {
 	#bluenavbar ul.navbar-nav>li {
 		margin-right: 2%;
 	}
 }
-@media (min-width: 1200px) {/*keep menu as one-line on medium screens*/
+@media (min-width: 1200px) {
 	#bluenavbar ul.navbar-nav>li {
 		margin-right: 4%;
 	}
@@ -350,18 +207,7 @@ Styles for header above menu bar
 4.0 Styles for Front Page
 --------------------------------------------------------------*/
 
-/*Slider photos - insert as div backgrounds so they don't slide */
-
-/*#carousel-example-generic .carousel-inner {
-	height: 400px;
-	position: relative;
-	width: 100%;
-	background: #000;
-}
-#carousel-example-generic .carousel-inner>.item >img{
-	display: block;
-	margin: 0 auto;
-}*/ 
+/*Styling the slider captions---------- */
 .carousel-caption {
 	top:30px;
 	}
@@ -371,11 +217,7 @@ Styles for header above menu bar
 .item.left, .item.left img, .item.right, .item.right img {
 	padding: 0; 
 }
-.item img {
-	
-}
-
-
+/*Shrink captions for small screens */
 @media (max-width: 1199px) { 
 .carousel-caption h1 { 
 font-size: 35px;
@@ -393,6 +235,10 @@ font-size: 25px;
 .carousel-caption {
 	top: 15px;
 }
+a.button.large {
+  font-size: 18px;
+  padding: 0 30px;
+}
 }
 @media (max-width: 480px) { 
 .carousel-caption h1 { 
@@ -402,27 +248,12 @@ font-size: 17px;
 	top: 5px;
 	padding: 0px;
 }
-}
-
-
-
-
-
-@media (max-width: 767px) {
-a.button.large {
-  font-size: 18px;
-  padding: 0 30px;
-}
-}
-@media (max-width: 480px) {
 a.button.large {
   height: 45px;
   line-height: 45px;
 }
 }
-
-
-
+/*Make slides always full width*/
 .item img {
   width:100%;
   }
@@ -431,77 +262,69 @@ a.button.large {
 	height: auto;
 	overflow:hidden;
 	}
-	
-.home-features p {
-	color: #777;
-	min-height: 140px;
-	margin: 20px 0 0 0;
-	}
-	
-/*
-#carousel-example-generic .carousel-inner>.item  .carousel-caption {
-	top: 30px;
-	width:950px;
-	
-	left: 50%;
-	margin-left: -475px;
+
+
+/* --------
+----MAKING THE SLIDE BACKGROUNDS FIXED ----------*/
+#myCarousel1 .carousel-inner {
+	height: 400px;
+	background-color: #000;
 }
-
-
-/* MAKING THE SLIDE BACKGROUNDS FIXED --------------------
-#carousel-example-generic .carousel-inner>.item >img{
-	display:block;
-	min-width:100%;
-	max-width: none;
-	margin: 0 auto;
-	
-	opacity: 0;
-} 
-
-
-.carousel-inner #solarenergy {
-	background-image: url('img/slider/solarenergy-slider.jpg')
-}
-
-.carousel-inner #referral {
-	background-image: url('img/slider/referral-slider.jpg')
-}
-
-.carousel-inner #lighting {
-	background-image: url('img/slider/lighting-slider.jpg')
-}
-
-.carousel-inner #investment {
-	background-image: url('img/slider/investment-slider.jpg')
-}
-
-.carousel-inner #installers {
-	background-image: url('img/slider/installers-slider.jpg')
-}
-
-.carousel-inner #charity {
-	background-image: url('img/slider/charity-slider.jpg')
-}
-
-.carousel-inner>.item {
+#myCarousel1 .carousel-inner .item {
+	position:absolute;
 	height: 400px;
 	background-color: transparent;
-	background-image:url('img/bkg-home-offices.jpg');
-	background-position: center;
-	background-size: cover; 
+	background-image:url('img/slider/investment-slider.jpg');
+	background-position: top;
+	background-size: cover;
 	text-align: center;
 	background-attachment: fixed;	
-}*/
-/*@media screen and (min-width: 768px) {
-	.carousel-indicators {
-		margin-bottom: 10px
+	width:100%;
+	top:0;
+	-webkit-transition:left .6s ease-in-out;
+	transition:left .6s ease-in-out;
+	left:0;
 	}
-	.carousel-caption {
-		
-	}
-}*/
+
+#myCarousel1 .carousel-inner>.next{left:100%}
+#myCarousel1 .carousel-inner>.prev{left:-100%}
+#myCarousel1 .carousel-inner>.next.left, #myCarousel1 .carousel-inner>.prev.right{left:0}
+#myCarousel1 .carousel-inner>.active.left{left:-100%}
+#myCarousel1 .carousel-inner>.active.right{left:100%}
+
+/*Clear out the Bootstrap conflicts that break fixed slides*/
+#myCarousel1 .carousel-inner .item { 
+	-webkit-backface-visibility: initial;
+	backface-visibility: initial;
+	-webkit-transform: initial;
+	transform: initial;
+}
+/*SLIDER Backgrounds */
+#myCarousel1 .carousel-inner .item#solarenergy {
+	background-image: url('img/slider/solarenergy-slider.jpg')
+}
+#myCarousel1 .carousel-inner .item#referral {
+	background-image: url('img/slider/referral-slider.jpg')
+}
+#myCarousel1 .carousel-inner .item#lighting {
+	background-image: url('img/slider/lighting-slider.jpg')
+}
+#myCarousel1 .carousel-inner .item#investment {
+	background-image: url('img/slider/investment-slider.jpg')
+}
+#myCarousel1 .carousel-inner .item#installers {
+	background-image: url('img/slider/installers-slider.jpg')
+}
+#myCarousel1 .carousel-inner .item#charity {
+	background-image: url('img/slider/charity-slider.jpg')
+}
+/*END OF FIXED SLIDER*/
 
 
+
+
+
+	
 
 /*--------------------------------
 Home-features circle CTAs
@@ -514,6 +337,11 @@ margin-bottom: 40px;
 	font-size: 26px;
 	text-transform: uppercase;
 }
+.home-features p {
+	color: #777;
+	min-height: 140px;
+	margin: 20px 0 0 0;
+	}
 .home-features img {
 	-webkit-border-radius: 999px;
 	-moz-border-radius: 999px;
@@ -550,7 +378,7 @@ margin-bottom: 40px;
 	}
 
 /*-----------------------
-Homepage slideshow 
+Homepage image gallery 
 ------------------------*/
 .home-slideshow {
 	background: #eeeeee;

@@ -15,7 +15,7 @@
 		<p id="copyright">© 2015 ABLAZE ENERGY. ALL RIGHTS RESERVED.</p>
 		<div class="footerbox col-md-2 col-sm-4">
 			<a href="/solar"><h3>Solar</h3></a>
-			<ul> 
+			<ul class="menulist"> 
 				<li><a href="/residential-solar/">Residential</a></li>
 				<li><a href="/commercial-solar/">Commercial</a></li>
 				<li><a href="/what-solar-costs">What it Costs</a></li>
@@ -28,13 +28,13 @@
 		</div>
 		<div class="footerbox col-md-2 col-sm-4">
 			<a href="/lighting"><h3>Lighting</h3></a>
-			<ul>
+			<ul class="menulist">
 				<li><a href="/faq">FAQ</a></li>				
 			</ul>
 		</div>
 		<div class="footerbox col-md-2 col-sm-4">
 			<a href="/sell-ablaze-energy"><h3>Sell Ablaze</h3></a>
-			<ul>
+			<ul class="menulist">
 				<li><a href="/sales">Sales</a></li>				
 				<li><a href="/requirements">Requirements</a></li>				
 				<li><a href="/benefits">Benefits</a></li>				
@@ -43,7 +43,7 @@
 		</div>
 		<div class="footerbox col-md-2 col-sm-4">
 			<a href="/about-us"><h3>Company</h3></a>
-			<ul>
+			<ul class="menulist">
 				<li><a href="/blog">Blog</a></li>
 				<li><a href="/what-we-stand-for">What We stand for</a></li>								
 			</ul>

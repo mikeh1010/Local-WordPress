@@ -5,66 +5,6 @@ Written by: Mike Hayes */
 
 
 
-/* MAKING THE SLIDE BACKGROUNDS FIXED --------------------*/
-
-#myCarousel1 .carousel-inner {
-	height: 400px;
-	background-color: #000;
-}
-#myCarousel1 .carousel-inner .item {
-	position:absolute;
-	height: 400px;
-	background-color: transparent;
-	/*background-image:url('img/slider/investment-slider.jpg');*/
-	background-position: top;
-	background-size: cover;
-	text-align: center;
-	background-attachment: fixed;	
-	width:100%;
-	top:0;
-		-webkit-transition:left .6s ease-in-out;
-	transition:left .6s ease-in-out;
-	left:0;
-	}
-#myCarousel1 .carousel-inner>.active, #myCarousel1 .carousel-inner>.next, #myCarousel1 .carousel-inner>.prev {
-
-	}
-#myCarousel1 .carousel-inner>.next{left:100%}
-#myCarousel1 .carousel-inner>.prev{left:-100%}
-#myCarousel1 .carousel-inner>.next.left, #myCarousel1 .carousel-inner>.prev.right{left:0}
-#myCarousel1 .carousel-inner>.active.left{left:-100%}
-#myCarousel1 .carousel-inner>.active.right{left:100%}
- 
-
-/*Clear out the conflicts that break fixed slides*/
-#myCarousel1 .carousel-inner .item { 
-	-webkit-backface-visibility: initial;
-	backface-visibility: initial;
-	-webkit-transform: initial;
-	transform: initial;
-}
-
-
-#myCarousel1 .carousel-inner .item#solarenergy {
-	background-image: url('img/slider/solarenergy-slider.jpg')
-}
-#myCarousel1 .carousel-inner .item#referral {
-	background-image: url('img/slider/referral-slider.jpg')
-}
-#myCarousel1 .carousel-inner .item#lighting {
-	background-image: url('img/slider/lighting-slider.jpg')
-}
-#myCarousel1 .carousel-inner .item#investment {
-	background-image: url('img/slider/investment-slider.jpg')
-}
-#myCarousel1 .carousel-inner .item#installers {
-	background-image: url('img/slider/installers-slider.jpg')
-}
-#myCarousel1 .carousel-inner .item#charity {
-	background-image: url('img/slider/charity-slider.jpg')
-}
-/* End of Slider ----------------------------------*/
-
 
 
 
