@@ -99,7 +99,10 @@ border: 0;
 2.0 Styles for the Entire Site
 --------------------------------------------------------------*/
 
-img { max-width:100%; }
+img { 
+	max-width:100%;
+	height:auto;
+	}
 
 body, p {
 font-family: 'lato', helvetica, arial, sans-serif;
@@ -122,6 +125,9 @@ ol, ul {
 	padding-left: 20px;
 	margin: 10px 0px;
 }
+ul li { list-style: circle; }
+ol li { list-style: decimal; }
+
 .menulist li {
 	list-style: none;
 }
