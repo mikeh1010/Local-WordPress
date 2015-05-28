@@ -3,7 +3,7 @@
 <section id="frontpage" >
 	
 	<!-- Carousel ================================================== -->
-    <div id="myCarousel1" class="carousel slide carousel-fade" data-ride="carousel" >
+    <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel" >
       <!-- Indicators -->
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -71,11 +71,11 @@
 		
       </div>
 	  
-      <a class="left carousel-control" data-target="#myCarousel1" role="button" data-slide="prev">
+      <a class="left carousel-control" data-target="#myCarousel" role="button" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
       </a>
-      <a class="right carousel-control" data-target="#myCarousel1" role="button" data-slide="next">
+      <a class="right carousel-control" data-target="#myCarousel" role="button" data-slide="next">
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>

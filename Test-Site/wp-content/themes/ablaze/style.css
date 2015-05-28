@@ -15,7 +15,7 @@ Version: 1.0
 /*-------------------------------------------------------------
 Temporary Styles 
 --------------------------------------------------------------*/
-#bluenavbar ul li { list-style: none;}
+
 
 #section-form-consult .form input, #section-form-consult .form textarea, #section-form-consult .form button {
 	font-size: 14px;
@@ -41,93 +41,6 @@ Temporary Styles
   margin: 5px 0;
   transition: all .3s ease;
   }
-
-  
-  
-  
- #myCarousel {
-    width: 100%;
-}
- .carousel-control {
-    margin-top: 20px;
-}
- .carousel-inner .item {
-    width: 100%;
-    height: 400px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-
-
-/*--------------------------------------------------------------
-3.0 Styles for Responsive Menu
---------------------------------------------------------------*/
-/*Make all menus unstyled lists */
-.menulist li {
-	list-style: none;
-}
-/*color the blue container bar*/
-#bluenavbar  {
-	background: #1F689D;
-	border-top: 1px solid #065682;
-	clear: both; 
-}
-/*clear Bootstrap styling of menu container*/
-#bluenavbar .navbar-default {
-	background: inherit;
-	border: none;
-	margin-bottom: 0;
-}
-/*style the menu text*/
-#bluenavbar li a, #bluenavbar .navbar-brand {
-	background: #1F689D;
-	color: rgba(255,255,255,0.65);	
-	text-transform: uppercase;	
-	letter-spacing: 1px;
-	font-size: 15px;
-	line-height: 50px;
-	text-decoration: none;
-	padding-top: 0;
-	padding-bottom: 0;
-
-	border-bottom: 1px solid rgba(255,255,255,0.2);
-}
-/*Make links white on hover*/
-#bluenavbar li a:hover {
-	color: #fff;
-}
-/*Hide 'menu' label when not on mobile*/
-.navbar-brand {
-		display:none;
-	}
-/*Color the Bootstrap 'menu' icon'*/
-#bluenavbar .icon-bar { background-color: rgba(255,255,255,0.65);}
-#bluenavbar .navbar-toggle:hover, #bluenavbar .navbar-toggle:focus { background-color: rgba(255,255,255,0.65); }
-#bluenavbar .navbar-toggle:hover .icon-bar, #bluenavbar .navbar-toggle:focus .icon-bar {	background-color: #1F689D; }
-
-/*Make sure menu stays just one line tall on all screen sizes: */
-@media (max-width: 991px) and (min-width: 767px) {
-	#bluenavbar ul.navbar-nav li a{
-		font-size: 11px;
-		margin: 0;
-	}
-	#bluenavbar ul.navbar-nav li {
-		margin: 0;
-	}	
-}
-@media (min-width: 992px) {
-	#bluenavbar ul.navbar-nav>li {
-		margin-right: 2%;
-	}
-}
-@media (min-width: 1200px) {
-	#bluenavbar ul.navbar-nav>li {
-		margin-right: 4%;
-	}
-}
 
 
 /*--------------------------------------------------
@@ -184,6 +97,76 @@ Styles for header above menu bar
 		margin: 0;		
 	}
 }
+
+/*--------------------------------------------------------------
+3.0 Styles for Responsive Menu
+--------------------------------------------------------------*/
+
+/*color the blue container bar*/
+#bluenavbar  {
+	background: #1F689D;
+	border-top: 1px solid #065682;
+	clear: both; 
+}
+/*clear Bootstrap styling of menu container*/
+#bluenavbar .navbar-default {
+	background: inherit;
+	border: none;
+	margin-bottom: 0;
+}
+/*style the menu text*/
+#bluenavbar li a, #bluenavbar .navbar-brand {
+	background: #1F689D;
+	color: rgba(255,255,255,0.65);	
+	text-transform: uppercase;	
+	letter-spacing: 1px;
+	font-size: 15px;
+	line-height: 50px;
+	text-decoration: none;
+	padding-top: 0;
+	padding-bottom: 0;
+
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+/*Make links white on hover*/
+#bluenavbar li a:hover {
+	color: #fff;
+}
+/*Color the Bootstrap 'menu' icon'*/
+#bluenavbar .icon-bar { background-color: rgba(255,255,255,0.65);}
+#bluenavbar .navbar-toggle:hover, #bluenavbar .navbar-toggle:focus { background-color: rgba(255,255,255,0.65); }
+#bluenavbar .navbar-toggle:hover .icon-bar, #bluenavbar .navbar-toggle:focus .icon-bar {	background-color: #1F689D; }
+
+/*Hide 'menu' label when not on mobile*/
+@media (min-width: 767px) {
+	.navbar-brand {
+			display:none;
+		}
+	}
+
+/*Shrink menu on smaller screens to maintain one line: */
+@media (max-width: 991px) and (min-width: 767px) {
+	#bluenavbar ul.navbar-nav li a{
+		font-size: 11px;
+		margin: 0;
+	}
+	#bluenavbar ul.navbar-nav li {
+		margin: 0;
+	}	
+}
+@media (min-width: 992px) {
+	#bluenavbar ul.navbar-nav>li {
+		margin-right: 2%;
+	}
+}
+@media (min-width: 1200px) {
+	#bluenavbar ul.navbar-nav>li {
+		margin-right: 4%;
+	}
+}
+
+
+
 
 
 
@@ -266,11 +249,11 @@ a.button.large {
 
 /* --------
 ----MAKING THE SLIDE BACKGROUNDS FIXED ----------*/
-#myCarousel1 .carousel-inner {
+#myCarousel .carousel-inner {
 	height: 400px;
 	background-color: #000;
 }
-#myCarousel1 .carousel-inner .item {
+#myCarousel .carousel-inner .item {
 	position:absolute;
 	height: 400px;
 	background-color: transparent;
@@ -286,36 +269,36 @@ a.button.large {
 	left:0;
 	}
 
-#myCarousel1 .carousel-inner>.next{left:100%}
-#myCarousel1 .carousel-inner>.prev{left:-100%}
-#myCarousel1 .carousel-inner>.next.left, #myCarousel1 .carousel-inner>.prev.right{left:0}
-#myCarousel1 .carousel-inner>.active.left{left:-100%}
-#myCarousel1 .carousel-inner>.active.right{left:100%}
+#myCarousel .carousel-inner>.next{left:100%}
+#myCarousel .carousel-inner>.prev{left:-100%}
+#myCarousel .carousel-inner>.next.left, #myCarousel1 .carousel-inner>.prev.right{left:0}
+#myCarousel .carousel-inner>.active.left{left:-100%}
+#myCarousel .carousel-inner>.active.right{left:100%}
 
 /*Clear out the Bootstrap conflicts that break fixed slides*/
-#myCarousel1 .carousel-inner .item { 
+#myCarousel .carousel-inner .item { 
 	-webkit-backface-visibility: initial;
 	backface-visibility: initial;
 	-webkit-transform: initial;
 	transform: initial;
 }
 /*SLIDER Backgrounds */
-#myCarousel1 .carousel-inner .item#solarenergy {
+#myCarousel .carousel-inner .item#solarenergy {
 	background-image: url('img/slider/solarenergy-slider.jpg')
 }
-#myCarousel1 .carousel-inner .item#referral {
+#myCarousel .carousel-inner .item#referral {
 	background-image: url('img/slider/referral-slider.jpg')
 }
-#myCarousel1 .carousel-inner .item#lighting {
+#myCarousel .carousel-inner .item#lighting {
 	background-image: url('img/slider/lighting-slider.jpg')
 }
-#myCarousel1 .carousel-inner .item#investment {
+#myCarousel .carousel-inner .item#investment {
 	background-image: url('img/slider/investment-slider.jpg')
 }
-#myCarousel1 .carousel-inner .item#installers {
+#myCarousel .carousel-inner .item#installers {
 	background-image: url('img/slider/installers-slider.jpg')
 }
-#myCarousel1 .carousel-inner .item#charity {
+#myCarousel .carousel-inner .item#charity {
 	background-image: url('img/slider/charity-slider.jpg')
 }
 /*END OF FIXED SLIDER*/
