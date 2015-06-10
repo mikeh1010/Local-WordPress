@@ -1,5 +1,5 @@
 body {
-	background: url(http://subtlepatterns.com/patterns/purty_wood.png);
+	background: url(purty_wood.png);
 	}
 #page-wrapper {
 	background-color: white;/*rgba(255, 255, 255, 0.5);*/
@@ -10,7 +10,7 @@ body {
 header {
 	margin-top: 30px;
 }
-header h1 {
+header .leftside {
 	margin-top: 0;
 	margin-right: 20px;
 	float:right;
@@ -58,4 +58,25 @@ header h1 {
 }
 #premium-features h3{
 	margin-top: 5px;
+}
+body hr {
+	margin-bottom:60px;
+	margin-top:50px;
+	clear:both;
+}
+
+
+
+.pedicacom-proposal #custom-pkg {
+	border: 5px solid black;
+}
+.pedicacom-proposal p {
+	font-size: 17px;
+}
+.pedicacom-proposal #package-includes h4 {
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+.pedicacom-proposal h2 {
+	font-size: 28px;
 }
