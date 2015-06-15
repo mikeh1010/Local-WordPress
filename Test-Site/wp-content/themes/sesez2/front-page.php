@@ -247,20 +247,21 @@
 		<h1>Get Involved</h1>
 		
 		<div class="col-md-4" id="surveys">
-			<h3>Take One of Our Surveys</h3>
+			<h3>Provide Feedback in a Survey:</h3>
 			<a href="https://www.surveymonkey.com/s/LiberiaSESEZ" target="_blank"><button>Tenant Survey</button></a>
 			<a href="https://www.surveymonkey.com/s/LiberiaSESEZ" target="_blank"><button>Investor Survey</button></a>
 		</div>
 		
-		<div class="col-md-4" id="petition">
-			<?php echo do_shortcode( '[contact-form-7 id="4" title="Homepage support form"]' ); ?>
-		</div>
-		
 		<div class="col-md-4" id="blog">
-			<h3>Read Recent Posts</h3>
+			<h3>Read Recent Posts:</h3>
 			<ul>
 				<?php wp_get_archives( array( 'type' => 'postbypost', 'limit' => 10, 'format' => 'html' ) ); ?>
 				</ul>
+		</div>
+		
+		<div class="col-md-4" id="petition">
+			<h3>Sign Our Petition:</h3>
+			<?php echo do_shortcode( '[contact-form-7 id="4" title="Homepage support form"]' ); ?>
 		</div>
 		
 		<hr>
@@ -274,7 +275,7 @@
 <!-- FOOTER -->
 <footer class="container">
 	<p class="pull-right"><a href="#">Back to top</a></p>
-	<p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+	<p>&copy; 2015 <!--&middot;--> </p>
 </footer>
 
 </div><!-- /.container -->
