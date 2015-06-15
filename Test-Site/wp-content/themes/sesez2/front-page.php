@@ -56,10 +56,25 @@
 <!-- Marketing messaging and featurettes - containing div -->
 <div class="container" id="landingpage">		
 	
-	<div id="description"></div>
+	<div id="video-thunderclap">
+		<h1>Watch the Video and Join Our Thunderclap:</h1>
+		
+		<div class="col-md-3">
+			<iframe frameborder='0' height='540px' src='https://www.thunderclap.it/projects/27629-let-s-build-a-betterliberia/embed' width='250px'></iframe>
+		</div>
+		
+		<div class="col-md-9">
+			<iframe width="853" height="480" src="https://www.youtube.com/embed/XPwWO2eZpMw?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<hr>
+	</div> <!-- Thunderclap -->
+
 	
 	<div id="FAQs">
+	<h1>Learn More About the SESEZ</h1>
+	
 		<div class="col-md-6">
+			<h3>The <em>What</em> and <em>Why</em>:</h3>
 			<div class="FAQ-box">
 				<a class="collapsed" data-toggle="collapse" href="#what1" aria-expanded="false" aria-controls="collapseExample">
 					<h4>Why develop a Special Economic Zone?</h4>
@@ -114,7 +129,7 @@
 		</div><!-- half wide container-->	
 		
 		<div class="col-md-6">
-				
+			<h3>The <em>How</em>:
 			<div class="FAQ-box">
 				<a class="collapsed" data-toggle="collapse" href="#how1" aria-expanded="false" aria-controls="collapseExample">
 					<h4>How do companies benefit from the SESEZ?</h4>	
@@ -165,12 +180,6 @@
 		</div><!-- half wide container-->		
 		<hr>
 	</div> <!-- #FAQs -->
-      
-	<h2>Add Your Voice. <span class="text-muted">Support Our Cause.</span></h2>
-
-
-		<!---------------Petition Form-->
-		<?php echo do_shortcode( '[contact-form-7 id="4" title="Homepage support form"]' ); ?>
 	
 	<div id="partners">		
 		<h1>Our Partners</h1>        
@@ -231,28 +240,32 @@
 		  </div>
 
 		</div>	<!-- Tab panel -->
-	</div> <!-- id = 'support' -->	
-	
-
+	</div> <!-- id = 'partners' -->	
 	<hr>
-
+	
 	<div id="support">
-				
-		<div class="col-md-6" id="blog">
+		<h1>Get Involved</h1>
+		
+		<div class="col-md-4" id="surveys">
+			<h3>Take One of Our Surveys</h3>
+			<a href="https://www.surveymonkey.com/s/LiberiaSESEZ" target="_blank"><button>Tenant Survey</button></a>
+			<a href="https://www.surveymonkey.com/s/LiberiaSESEZ" target="_blank"><button>Investor Survey</button></a>
+		</div>
+		
+		<div class="col-md-4" id="petition">
+			<?php echo do_shortcode( '[contact-form-7 id="4" title="Homepage support form"]' ); ?>
+		</div>
+		
+		<div class="col-md-4" id="blog">
 			<h3>Read Recent Posts</h3>
 			<ul>
 				<?php wp_get_archives( array( 'type' => 'postbypost', 'limit' => 10, 'format' => 'html' ) ); ?>
 				</ul>
 		</div>
-		<div class="col-md-6" id="surveys">
-			<h3>Take One of Our Surveys</h3>
-			<a href="https://www.surveymonkey.com/s/LiberiaSESEZ" target="_blank"><button>Tenant Survey</button></a>
-			<a href="https://www.surveymonkey.com/s/LiberiaSESEZ" target="_blank"><button>Investor Survey</button></a>
-		</div>
-
+		
+		<hr>
 	</div><!-- #support -->
 
-	<hr>
 		
 </div> <!-- .container #landingpage -->
       
