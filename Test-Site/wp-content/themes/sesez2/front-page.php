@@ -16,7 +16,7 @@
             <div class="carousel-caption">
               <h1>SESEZ is Helping Liberia Rebuild Itself</h1>
               <!--<p>We're Building SESEZ to help Liberia Rebuild Itself</p>-->
-              <p><a class="btn btn-lg btn-primary" id="vidlink" href="#" role="button">Learn More <span class="caret"></span></a></p>
+              <p><a class="btn btn-lg btn-primary" id="vidlink" href="#FAQs" role="button">Learn More <span class="caret"></span></a></p>
             </div>
           </div>
         </div>
@@ -26,7 +26,7 @@
             <div class="carousel-caption">
               <h1>We Can't Do This Without Your Help</h1>
               <!--<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>-->
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Be Involved  <span class="caret"></span></a></p>
+              <p><a class="btn btn-lg btn-primary" href="#involved" role="button">Be Involved  <span class="caret"></span></a></p>
             </div>
           </div>
         </div>
@@ -243,8 +243,8 @@
 	</div> <!-- id = 'partners' -->	
 	<hr>
 	
-	<div id="support">
-		<h1>Get Involved</h1>
+	<div id="involved">
+		<h1>Be Involved</h1>
 		
 		<div class="col-md-4" id="surveys">
 			<h3>Provide Feedback in a Survey:</h3>

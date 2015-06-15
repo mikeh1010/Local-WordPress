@@ -206,34 +206,34 @@ Partners styles
 
 
 /*-------------------------------------------
-Support styles
+involved styles
 -------------------------------------------*/
 #landingpage .wpcf7-form input:hover[type="submit"] {
 	background: #9CCB97
 }
 
-#support #surveys {
+#involved #surveys {
 	text-align: center;
 }
-#support #blog ul li{
+#involved #blog ul li{
 	list-style: none;
 }
-#support #blog ul li  {
+#involved #blog ul li  {
 	font-size: 19px;
 	margin: 15px 0;
 	display:block;
 }
 
-#support #blog ul li a {
+#involved #blog ul li a {
 	font-size: 19px;
 	padding: 3px 0;
 	border-bottom: 1px solid rgb(51, 122, 185); 
 	}
-#support #blog ul li a:hover {
+#involved #blog ul li a:hover {
 	text-decoration: none;
 	}
 
-#support #surveys button {
+#involved #surveys button {
 	width: 100%;
 	display: block;
 	margin: 5px auto;
@@ -242,16 +242,16 @@ Support styles
 	color:#fff;
 	font-size: 22px;
    }
-#support #surveys a:hover {
+#involved #surveys a:hover {
 	text-decoration: none;
 }   
    
-/*#support #surveys button:hover {
+/*#involved #surveys button:hover {
    border-top-color: #28784a;
    background: #28784a;
    color: #cccccc;
    }
-#support #surveys button:active {
+#involved #surveys button:active {
    border-top-color: #30d920;
    background: #28784b;
    }*/
@@ -276,7 +276,7 @@ Support styles
 	color: #206119;
 	text-transform: uppercase;
 }
-#support div.wpcf7 img.ajax-loader {
+#involved div.wpcf7 img.ajax-loader {
 	margin: 5px auto;
 	display: block;
 }
