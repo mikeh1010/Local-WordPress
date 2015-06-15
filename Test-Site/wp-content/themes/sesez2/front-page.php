@@ -54,51 +54,118 @@
 
 
 <!-- Marketing messaging and featurettes - containing div -->
-<div class="container" id="landingpage">	
-
-	<div id="description">
-		<p><span>The basis for the SESEZ program</span> is a clear and comprehensive understanding of the Liberian context for private sector development and delivering socio-economic development goals. In its inception phase, the program focused on identifying the social and economic development objectives and obstacles identified by stakeholders across socio-economic and political scales; not only to align the program with government initiatives and greater consensus but also to verify the validity of existing development policies and agendas.</p>
-		<p>In collecting this data the SESEZ program formulated a clear picture of what the most pressing social and economic development goals are, what obstacles hinder their attainment, and how the private sector has a role to play in addressing them. On a secondary level, we identified and examined the obstacles that hinder private sector growth for firms both big and small.</p>
-		<p>These research questions informed the two primary objectives of the SESEZ program; overcoming obstacles to private sector growth, and delivering on the social and economic development needs identified by stakeholders in the Liberian context.</p>
-	</div>		
+<div class="container" id="landingpage">		
 	
-	<div id="FAQs">	
-		<div class="FAQ-box">
-			<a class="collapsed" data-toggle="collapse" href="#accordion1" aria-expanded="false" aria-controls="collapseExample">
-				<h4>Is it just an SEZ for social enterprises?</h4>
-			</a>	
-			<div class="answer collapse" id="accordion1">
-			  <p>Not quite… In Liberia, we’ve worked with social entrepreneurs, policy makers, Liberian business associations, commerce groups, and the general public to formulate a definition for social enterprise, and embedded the Liberian social enterprise model in our SEZ framework. In this way, the SESEZ is not just an SEZ offering space exclusively to social enterprises, but an SEZ that focuses on delivering social enterprise objectives through its own operation and policy agenda.</p>
+	<div id="description"></div>
+	
+	<div id="FAQs">
+		<div class="col-md-6">
+			<div class="FAQ-box">
+				<a class="collapsed" data-toggle="collapse" href="#what1" aria-expanded="false" aria-controls="collapseExample">
+					<h4>Why develop a Special Economic Zone?</h4>
+				<div class="answer collapse" id="what1">
+				  <p>By using developing a Special Economic Zone we can create conditions for investors, laborers, and entrepreneurs that boost the doing business climate. In this way, we can address many of the obstacles identified in Liberia’s private sector. Additionally, we believe it's critical to focus on developing sectors and industries with the greatest potential to become competitive regionally and globally.</p>
+				</div>
+				</a>	
 			</div>
-		</div>
-		
-		<div class="FAQ-box">
-			<a class="collapsed" data-toggle="collapse" href="#accordion2" aria-expanded="false" aria-controls="collapseExample">
-				<h4>What is Social Enterprise in Liberia?</h4>
-			</a>	
-			<div class="answer collapse" id="accordion2">
-				<p>Lets start from the very basic idea that a social enterprise is a private sector-driven approach to delivering socio-economic/environmental developments. This is the starting point from which local and international stakeholders began to define what social enterprise means in the Liberian context. In Liberia the private sector is seen as delivering on socio-economic development needs by: providing fair/scalable employment, and closing market gaps that hinder growth within key productive sectors; such as the lack of cold storage or a packaging and labeling plant. Although a cannery might not initially come to mind when you hear the term social enterprise, in Liberia, a cannery would drastically reduce post-harvest losses, generate greater profits for small holder farmers, improve food security, provide manufacturing jobs, reduce import dependence, allow for diversification of exports; generate impact far beyond revenue generation. </p>
-				<p>Our goal with the establishment of Liberia’s first SESEZ, therefore, is to 1) provide an improved investment and doing business climate, by creating an industrial space with an autonomous and enabling policy environment that facilitates investment and inclusive private sector growth, 2) attract firms who’s operations inherently contribute to broader socio-economic development in the country.</p>
-				<p>Adopting an SEZ approach facilitates the opportunity for creating conditions for investors, laborers, and entrepreneurs that are better than what can be found urrently at the national scale. In this way, the SESEZ will address many of the obstacles identified by stakeholders in Liberia’s private sector. </p>
-				<p>However, even the most liberal private sector policies in the world cannot guarantee success and inclusive growth. To succeed in this right, we believe its critical to focus on developing sectors and industries with the greatest potential to become competitive regionally and globally. </p>
-				<p>To determine what sectors would make up this strategy we formulated a deep understanding of the Liberian social, economic, physical, and historic landscapes. What has Liberian done well in the past and what does Liberia well today? What is available in abundance? Where can Liberia offer competitive pricing relative to the global market?  What advantages does Liberia’s geographic location provide? Which industries and trading partners benefit from existing policies? Which industries offer long term environmental, social, and economic sustainability? Which sectors offer the greatest opportunity for borad-based inclusion of the Liberian populace? These are all questions we asked to determine which sectors are capable of sustainably generating the greatest social impact and economic returns in Liberia.</p>
-				<p>These are the industries, that if given a little push, can generate inclusive economic growth by offering globally competitive production and cost-efficiency in the long-term. In focusing on comparative advantages relative to the labor market, natural environment, regional and global position, the SESEZ program identifies what is needed to target those comparative advantages and transform them into competitive industries.</p>
-			</div>
-		</div>
-		
-		<div class="FAQ-box">
-			<a class="collapsed" data-toggle="collapse" href="#accordion3" aria-expanded="false" aria-controls="collapseExample">
-				<h4>What does the SESEZ provide?</h4>
-			</a>		
-			<div class="answer collapse" id="accordion3">
-				<p>The SESEZ will facilitate the required upgrades in infrastructure and policy in order to develop competitive industries over the long-term. From reliable utilities and green energy, to transparent regulatory regimes and expedited customs clearance, the SESEZ focuses on delivering a globally competitive industrial space with enabling and ethical policies. The benefits of operating inside the SESEZ translate to impact well beyond the gates of the zone by facilitating the growth of those Industries which have the greatest ability to generate the inclusive economic development, create jobs for thousands of people both inside and outside the zone, and provide the conditions for social and economic development through fair employment conditions and wages, and developing human capital capacity to maximize participation in formal economic activity.</p>
-				<p>On another level, the SESEZ will, itself, deliver on social and economic development needs. Not only by enforcing fair working conditions and wages, but through attracting tenants who are attuned to the long-term success of the country; companies committed to making Liberia competitive in the long-term. The SESEZ can support these socially conscious ventures through our network of social impact investors, grant and donor opportunities; many of whom are interested in engaging in private sector development and investment, but reluctant given the existing policy and infrastructure environment. The SESEZ inspires the confidence to bring the partners to the table; creating an enabling policy environment, providing the utmost transparency and standards for business regulation. And finally, the SESEZ program offers a development and revitalization program for the community where it is located. Engaging with stakeholders at the community level, the SESEZ program identifies the needs of community members, groups, and leaders. Whether its providing housing and hospitals for tenant employees and their families, or renovating a school which serves the entire community, the SESEZ program is committed to delivering on the needs of the community by engaging with stakeholders at every level of society.</p>
-			</div>
-		</div>	
 			
+			<div class="FAQ-box">
+				<a class="collapsed" data-toggle="collapse" href="#what2" aria-expanded="false" aria-controls="collapseExample">
+					<h4>What does the SESEZ program want to achieve?</h4>
+				<div class="answer collapse" id="what2">
+					<p>The objective of Liberia’s first SESEZ is to 1) develop an improved investment and doing business climate, in an industrial space that supports investment and inclusive private sector growth, and 2) attract local and international companies who’s operations inherently contribute to socio-economic development in Liberia.</p>
+				</div>
+				</a>
+			</div>
+			
+			<div class="FAQ-box">
+				<a class="collapsed" data-toggle="collapse" href="#what3" aria-expanded="false" aria-controls="collapseExample">
+					<h4>What does a Social Enterprise in Liberia mean?</h4>
+				<div class="answer collapse" id="what3">
+					<p>A social enterprise is a private sector-driven approach to delivering socio-economic and environmental objectives. This was the starting point for local and international stakeholders to define what a social enterprise means in Liberia. In Liberia the private sector is seen as contributing to socio-economic development by:</p>
+					<ul>
+						<li>Providing fair & scalable employment.</li>
+						<li>Closing market gaps that hinder growth within key sectors; such as the lack of cold storage or a packaging and labeling plant.</li>							
+					</ul>
+					<p>Although a cannery might not initially come to mind when you hear the term social enterprise, in Liberia, a cannery would drastically reduce post-harvest losses, generate greater profits for farmers, improve food security, provide manufacturing jobs, reduce import dependence, allow for diversification of exports and generate impact far beyond revenue generation.</p>
+				</div>
+				</a>	
+			</div>
+			
+			<div class="FAQ-box">
+				<a class="collapsed" data-toggle="collapse" href="#what4" aria-expanded="false" aria-controls="collapseExample">
+					<h4>Is it just an SEZ for Social Enterprises?</h4>
+				<div class="answer collapse" id="what4">
+				  <p>Not quite... in Liberia, we’ve worked with entrepreneurs, policy makers, Liberian business associations, commerce groups, and the public to define the concept of a social enterprise. We created a broad local consensus around the concept of social enterprise, and inserted this in our program. In doing so, we are making sure the SESEZ is not just a space exclusively for social enterprises but an SEZ that delivers social impact through its operation and policies.</p>
+				</div>
+				</a>	
+			</div>
+			
+			<div class="FAQ-box">
+				<a class="collapsed" data-toggle="collapse" href="#what5" aria-expanded="false" aria-controls="collapseExample">
+					<h4>What is the basis for the Liberian SESEZ program?</h4>
+				<div class="answer collapse" id="what5">
+				  <p>To develop a strong SESEZ program, a clear understanding of private sector development in Liberia and delivering socio-economic impact was needed. At first, the program focused on identifying the social and economic concerns identified by all stakeholders involved. This was done to align the program with national goals, to create consensus and confirm the need for specific socio-economic impact.</p>
+				  <p>In collecting this data the SESEZ program formulated a clear picture of what the most pressing social and economic development goals are, what obstacles hinder their attainment, and how the private sector has a role to play in addressing them. On a secondary level, we identified and examined the obstacles that hinder private sector growth for firms both big and small.</p>
+				</div>
+				</a>	
+			</div>
+			
+		</div><!-- half wide container-->	
+		
+		<div class="col-md-6">
+				
+			<div class="FAQ-box">
+				<a class="collapsed" data-toggle="collapse" href="#how1" aria-expanded="false" aria-controls="collapseExample">
+					<h4>How do companies benefit from the SESEZ?</h4>	
+				<div class="answer collapse" id="how1">
+					<p>The SESEZ delivers a globally competitive industrial space for socially conscious companies through:</p>
+					<ul>
+						<li>Our network of social impact investors, grant and donor opportunities; many of whom are interested in engaging in private sector development and investment.</li>
+						<li>Creating an enabling policy environment, providing the highest transparency standards for business and expedited customs clearance.</li>
+						<li>Providing reliable utilities and sustainable energy and developing upgrades in infrastructure and policies.</li>
+					</ul>
+				</div>
+				</a>	
+			</div>	
+			
+			<div class="FAQ-box">
+				<a class="collapsed" data-toggle="collapse" href="#how2" aria-expanded="false" aria-controls="collapseExample">
+					<h4>How does Liberia benefit from the SESEZ?</h4>
+				<div class="answer collapse" id="how2">
+					<p>The SESEZ delivers social and economic development by providing fair working conditions and wages, and through attracting companies who are focused on the long-term success of Liberia. The benefits of operating inside the SESEZ translate to impact well beyond the gates of the zone by:</p>
+					<ul>
+						<li>Stimulating growth of Liberian industries that have the greatest ability to generate inclusive economic development.</li>
+						<li>Creating jobs for thousands of people both inside and outside the zone, and providing fair employment and wages.</li>
+						<li>Developing human capital to maximize the participation in the economy.</li>
+					</ul>
+				</div>
+				</a>	
+			</div>
+			
+			<div class="FAQ-box">
+				<a class="collapsed" data-toggle="collapse" href="#how3" aria-expanded="false" aria-controls="collapseExample">
+					<h4>How to determine what industries to focus on?</h4>	
+				<div class="answer collapse" id="how3">
+					<p>These are the industries that if given a little push, can generate inclusive economic growth by offering globally competitive production in the long-term. To determine this we worked on a detailed understanding of Liberia's social, economic, physical, and historic aspects. Questions were asked like: What has Liberia done well in the past and what does Liberia well today? What is available in abundance? Where can Liberia be competitive? What advantages does Liberia’s geographic location provide? Which industries and trading partners benefit from existing policies? What industries offer long-term environmental, social, and economic sustainability? Which sectors offer the greatest opportunity for broad-based inclusion?</p>
+				</div>
+				</a>	
+			</div>
+			
+			<div class="FAQ-box">
+				<a class="collapsed" data-toggle="collapse" href="#how4" aria-expanded="false" aria-controls="collapseExample">
+					<h4>How does the SESEZ collaborate with the surrounding community?</h4>				
+				<div class="answer collapse" id="how4">
+					<p>The SESEZ program offers development and revitalization for the community where it is located. In working with the community, the SESEZ program will focus on its specific needs. Whether its providing housing and hospitals for company employees and their families, or renovating a school which serves the community, the SESEZ program is committed to delivering on the needs of the community at every level of the Liberian society.</p>
+				</div>
+				</a>		
+			</div>
+			
+
+		</div><!-- half wide container-->		
+		<hr>
 	</div> <!-- #FAQs -->
       
-	<hr>
 	<h2>Add Your Voice. <span class="text-muted">Support Our Cause.</span></h2>
 
 

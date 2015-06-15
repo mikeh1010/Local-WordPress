@@ -27,7 +27,10 @@ h4:focus {outline: none;}
 	margin: 20px;
 }
 
-
+hr {
+	clear:both;
+	margin: 15px auto;
+}
 
 
 /*----------------------------------------
@@ -119,17 +122,17 @@ Description styles
 /*-------------------------------------------
 FAQs styles
 -------------------------------------------*/
-#FAQs {
-	margin-bottom: 60px;
-	}
 
+#FAQs >.col-md-6 {
+	margin-bottom: 40px;
+}
 #FAQs .FAQ-box {	
 	margin: 5px auto;
 	background-color: #9CCB97;
 	border-radius: 5px;
 }
 #FAQs a>h4 {
-	padding: 5px 30px;
+	padding: 5px 10px;
 	margin: 5px auto;
 	color: #fff;
 }
@@ -138,7 +141,7 @@ FAQs styles
 	color: #89949B;
 }
 #FAQs h4 {
-	font-size: 28px;
+	font-size: 22px;
 }
 #FAQs h4:before {
 	content: "-";
@@ -153,8 +156,11 @@ FAQs styles
 	margin-right: 15px;
 }
 #FAQs .answer {
-	margin: auto 30px;
+	color: #2F4F4F;
 	padding-bottom: 10px;
+	}
+#FAQs .answer p, #FAQs .answer li {
+	margin: auto 30px;
 	font-size: 17px;
 }
 
