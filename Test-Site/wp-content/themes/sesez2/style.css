@@ -12,7 +12,7 @@ Version: 1.0
 
 /*SESEZ STYLES**********************************************/
 body {
-	background-image: url('img/background.jpg');
+	/*background-image: url('img/background.jpg');*/
 	background-repeat: repeat;
 	font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
 	}
@@ -102,15 +102,10 @@ Carousel styles
 /*-------------------------------------------
 Description styles
 -------------------------------------------*/
-#description {
-	margin: 50px auto 35px auto;
+#video-thunderclap h1 {
+	margin-top: 50px;
+	margin-bottom: 25px;
 }
-#description span {
-	font-size: 25px;
-	text-transform: uppercase;
-}
-
-
 
 
 
@@ -128,7 +123,7 @@ FAQs styles
 }
 #FAQs .FAQ-box {	
 	margin: 5px auto;
-	background-color: #9CCB97;
+	background-color: #337AB7;
 	border-radius: 5px;
 }
 #FAQs a>h4 {
@@ -156,7 +151,7 @@ FAQs styles
 	margin-right: 15px;
 }
 #FAQs .answer {
-	color: #2F4F4F;
+	color: #fff;
 	padding-bottom: 10px;
 	}
 #FAQs .answer p, #FAQs .answer li {
@@ -206,8 +201,18 @@ Partners styles
 
 
 /*-------------------------------------------
-involved styles
+Involved styles
 -------------------------------------------*/
+#involved h3 {
+	text-align: center;
+}
+
+@media (min-width:776px) {
+	#involved hr {
+		display:none;
+	}
+}
+
 #landingpage .wpcf7-form input:hover[type="submit"] {
 	background: #9CCB97
 }
@@ -257,12 +262,12 @@ involved styles
    }*/
 
 #wpcf7-f4-o1 {
-	width:80%;
+/*	width:80%;*/
 	margin:0 auto;
 }
 
 #wpcf7-f4-o1 input[type="text"], input[type="email"]{
-	width:48%;
+	max-width:100%;
 	padding:5px;
 	margin:5px;
 	float:left;

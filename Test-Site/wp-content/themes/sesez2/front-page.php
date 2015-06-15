@@ -57,21 +57,22 @@
 <div class="container" id="landingpage">		
 	
 	<div id="video-thunderclap">
-		<h1>Watch the Video and Join Our Thunderclap:</h1>
-		
+		<!--<h1>Watch the Video and Join Our Thunderclap:</h1>-->
+		<hr>
 		<div class="col-md-3">
 			<iframe frameborder='0' height='540px' src='https://www.thunderclap.it/projects/27629-let-s-build-a-betterliberia/embed' width='250px'></iframe>
 		</div>
 		
 		<div class="col-md-9">
-			<iframe width="853" height="480" src="https://www.youtube.com/embed/XPwWO2eZpMw?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+			<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/XPwWO2eZpMw' frameborder='0' allowfullscreen></iframe></div>
 		</div>
+
 		<hr>
 	</div> <!-- Thunderclap -->
 
 	
 	<div id="FAQs">
-	<h1>Learn More About the SESEZ</h1>
+	<h1>Social Enterprise Special Economic Zone</h1>
 	
 		<div class="col-md-6">
 			<h3>The <em>What</em> and <em>Why</em>:</h3>
@@ -85,7 +86,7 @@
 			</div>
 			
 			<div class="FAQ-box">
-				<a class="collapsed" data-toggle="collapse" href="#what2" aria-expanded="false" aria-controls="collapseExample">
+				<a class="collapsed" data-toggle="collapse" data-parent="#FAQs" href="#what2" aria-expanded="false" aria-controls="collapseExample">
 					<h4>What does the SESEZ program want to achieve?</h4>
 				<div class="answer collapse" id="what2">
 					<p>The objective of Liberia’s first SESEZ is to 1) develop an improved investment and doing business climate, in an industrial space that supports investment and inclusive private sector growth, and 2) attract local and international companies who’s operations inherently contribute to socio-economic development in Liberia.</p>
@@ -234,7 +235,7 @@
 			
 			<div role="tabpanel" class="tab-pane" id="become">
 				
-				<p>The SESEZ program is always looking for valuable new partnerships that can help strengthen the commitment to achieving our goals; developing inclusive economic growth and recovery in Liberia. Through collaborative partnerships and knowledge sharing networks, the SESEZ Program welcomes the opportunity to broaden our technical assistance and support base. To learn how you or your organization can contribute and/or partner in the delivery of the Liberian SESEZ Program, please contact the program director by clicking on the link below.</p>
+				<p>The SESEZ program is always looking for valuable new partnerships that can help strengthen the commitment to achieving our goals; developing inclusive economic growth and recovery in Liberia. Through collaborative partnerships and knowledge sharing networks, the SESEZ Program welcomes the opportunity to broaden our technical assistance and support base. To learn how you or your organization can contribute and/or partner in the delivery of the Liberian SESEZ Program, please <a href="mailto:email">email the program director at email@website.com</a>.</p>
 				
 			</div>
 		  </div>
