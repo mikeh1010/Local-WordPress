@@ -25,7 +25,7 @@
 </head>
 
 <body>
-<div class="menu-wrapper">
+<!--<div class="menu-wrapper">
 	<div class="container">
 		<nav class="navbar navbar-static-top" role="navigation">
 			<div class="container">
@@ -56,10 +56,10 @@
 									<li><a href="#">Separated link</a></li>
 									<li><a href="#">One more separated link</a></li>
 								  </ul>
-								</li> -->
+								</li> --><!--
 					</ul>
 				</div>
 			</div>
 		</nav>
 	</div>
-</div>
+</div>-->

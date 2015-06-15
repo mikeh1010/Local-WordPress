@@ -20,13 +20,23 @@
             </div>
           </div>
         </div>
-        <div class="item">
-          <img src="<?php bloginfo('template_directory');?>/img/slider_man.jpg" alt="Be Involved With SESEZ">
+		<div class="item">
+		  <img src="<?php bloginfo('template_directory');?>/img/slider_better.png" alt="Be Involved With SESEZ">
+		  <div class="container">
+			<div class="carousel-caption">
+			  <h1>Want a #BetterLiberia? Add Your Voice</h1>			  
+			  <p><a class="btn btn-lg btn-primary yellowbtn" href="#involved" role="button">Sign Our Petition  <span class="caret"></span></a></p>
+			</div>
+		  </div>
+		</div>
+		
+		<div class="item">
+          <img src="<?php bloginfo('template_directory');?>/img/slider_man.jpg" alt="We Need Your Feeback">
           <div class="container">
             <div class="carousel-caption">
-              <h1>We Can't Do This Without Your Help</h1>
+              <h1>We Need Your Feedback!</h1>
               <!--<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>-->
-              <p><a class="btn btn-lg btn-primary" href="#involved" role="button">Be Involved  <span class="caret"></span></a></p>
+              <p><a class="btn btn-lg btn-primary" target="_blank" href="https://sesez.typeform.com/to/EgSsyu" role="button">Take Our Survey  <span class="glyphicon glyphicon-chevron-right"></span></a></p>
             </div>
           </div>
         </div>
@@ -57,14 +67,14 @@
 <div class="container" id="landingpage">		
 	
 	<div id="video-thunderclap">
-		<!--<h1>Watch the Video and Join Our Thunderclap:</h1>-->
+		<h1>Watch the Video and Join Our Thunderclap:</h1>
 		<hr>
 		<div class="col-md-3">
 			<iframe frameborder='0' height='540px' src='https://www.thunderclap.it/projects/27629-let-s-build-a-betterliberia/embed' width='250px'></iframe>
 		</div>
 		
 		<div class="col-md-9">
-			<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/XPwWO2eZpMw' frameborder='0' allowfullscreen></iframe></div>
+			<div class='embed-container'><iframe src='https://www.youtube.com/embed/XPwWO2eZpMw' frameborder='0' allowfullscreen></iframe></div>
 		</div>
 
 		<hr>
@@ -74,10 +84,10 @@
 	<div id="FAQs">
 	<h1>Social Enterprise Special Economic Zone</h1>
 	
-		<div class="col-md-6">
+		<div class="col-md-6 FAQcontain">
 			<h3>The <em>What</em> and <em>Why</em>:</h3>
 			<div class="FAQ-box">
-				<a class="collapsed" data-toggle="collapse" href="#what1" aria-expanded="false" aria-controls="collapseExample">
+				<a class="collapsed" data-toggle="collapse" data-parent="#FAQs" href="#what1" aria-expanded="false" aria-controls="collapseExample">
 					<h4>Why develop a Special Economic Zone?</h4>
 				<div class="answer collapse" id="what1">
 				  <p>By using developing a Special Economic Zone we can create conditions for investors, laborers, and entrepreneurs that boost the doing business climate. In this way, we can address many of the obstacles identified in Liberia’s private sector. Additionally, we believe it's critical to focus on developing sectors and industries with the greatest potential to become competitive regionally and globally.</p>
@@ -95,7 +105,7 @@
 			</div>
 			
 			<div class="FAQ-box">
-				<a class="collapsed" data-toggle="collapse" href="#what3" aria-expanded="false" aria-controls="collapseExample">
+				<a class="collapsed" data-toggle="collapse" data-parent="#FAQs" href="#what3" aria-expanded="false" aria-controls="collapseExample">
 					<h4>What does a Social Enterprise in Liberia mean?</h4>
 				<div class="answer collapse" id="what3">
 					<p>A social enterprise is a private sector-driven approach to delivering socio-economic and environmental objectives. This was the starting point for local and international stakeholders to define what a social enterprise means in Liberia. In Liberia the private sector is seen as contributing to socio-economic development by:</p>
@@ -109,7 +119,7 @@
 			</div>
 			
 			<div class="FAQ-box">
-				<a class="collapsed" data-toggle="collapse" href="#what4" aria-expanded="false" aria-controls="collapseExample">
+				<a class="collapsed" data-toggle="collapse" data-parent="#FAQs" href="#what4" aria-expanded="false" aria-controls="collapseExample">
 					<h4>Is it just an SEZ for Social Enterprises?</h4>
 				<div class="answer collapse" id="what4">
 				  <p>Not quite... in Liberia, we’ve worked with entrepreneurs, policy makers, Liberian business associations, commerce groups, and the public to define the concept of a social enterprise. We created a broad local consensus around the concept of social enterprise, and inserted this in our program. In doing so, we are making sure the SESEZ is not just a space exclusively for social enterprises but an SEZ that delivers social impact through its operation and policies.</p>
@@ -118,7 +128,7 @@
 			</div>
 			
 			<div class="FAQ-box">
-				<a class="collapsed" data-toggle="collapse" href="#what5" aria-expanded="false" aria-controls="collapseExample">
+				<a class="collapsed" data-toggle="collapse" data-parent="#FAQs" href="#what5" aria-expanded="false" aria-controls="collapseExample">
 					<h4>What is the basis for the Liberian SESEZ program?</h4>
 				<div class="answer collapse" id="what5">
 				  <p>To develop a strong SESEZ program, a clear understanding of private sector development in Liberia and delivering socio-economic impact was needed. At first, the program focused on identifying the social and economic concerns identified by all stakeholders involved. This was done to align the program with national goals, to create consensus and confirm the need for specific socio-economic impact.</p>
@@ -235,7 +245,7 @@
 			
 			<div role="tabpanel" class="tab-pane" id="become">
 				
-				<p>The SESEZ program is always looking for valuable new partnerships that can help strengthen the commitment to achieving our goals; developing inclusive economic growth and recovery in Liberia. Through collaborative partnerships and knowledge sharing networks, the SESEZ Program welcomes the opportunity to broaden our technical assistance and support base. To learn how you or your organization can contribute and/or partner in the delivery of the Liberian SESEZ Program, please <a href="mailto:email">email the program director at email@website.com</a>.</p>
+				<p>The SESEZ program is always looking for valuable new partnerships that can help strengthen the commitment to achieving our goals; developing inclusive economic growth and recovery in Liberia. Through collaborative partnerships and knowledge sharing networks, the SESEZ Program welcomes the opportunity to broaden our technical assistance and support base. To learn how you or your organization can contribute and/or partner in the delivery of the Liberian SESEZ Program, please <a href="mailto:email">contact the program.</a>.</p>
 				
 			</div>
 		  </div>
