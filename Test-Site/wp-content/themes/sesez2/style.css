@@ -1,0 +1,346 @@
+/*
+Theme Name: SESEZ
+
+Description: A custom theme built for SESEZ
+Author: Mike Hayes
+Author URI: http://www.clearwebmgmt.com/
+Version: 1.0
+*
+
+*/
+
+
+/*SESEZ STYLES**********************************************/
+body {
+	background-image: url('img/background.jpg');
+	background-repeat: repeat;
+	font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+	}
+img { max-width: 100% }
+
+p { font-size: 18px; }
+
+h4:focus {outline: none;}
+
+.content {
+	background:#fff;
+	margin: 20px;
+}
+
+
+
+
+/*----------------------------------------
+Navigation Bar / Header
+-----------------------------------------*/
+
+/*Color of nav menu */
+.menu-wrapper {
+	background:white;
+}
+
+ul.navbar-nav {
+	float: right;
+}
+
+/*Height of nav menu */
+.menu-wrapper .container .navbar {
+	margin-top:0px;	
+	margin-bottom:0px;
+}
+
+/*Stylize nav menu */
+ul.navbar-nav li a {
+	font-size: 13px;
+	line-height: 20px !important;
+	font-weight: bold;
+	text-decoration: none solid rgb(137, 148, 155);
+	font-family: proxima-nova-n6, proxima-nova, sans-serif;
+	color: #89949B;
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------
+Carousel styles
+-------------------------------------------*/
+
+.carousel-caption{
+/*	background: rgba(29,145,210,0.5);*/
+	background: rgba(0,0,0,0.5);
+	border-radius: 20px;
+}
+
+.carousel .item {
+	background:none;
+}
+.carousel .item img {
+	width: 100%; 
+	max-height: 400px; 
+	overflow: hidden;
+	}
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------
+Description styles
+-------------------------------------------*/
+#description {
+	margin: 50px auto 35px auto;
+}
+#description span {
+	font-size: 25px;
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------
+FAQs styles
+-------------------------------------------*/
+#FAQs {
+	margin-bottom: 60px;
+	}
+
+#FAQs .FAQ-box {	
+	margin: 5px auto;
+	background-color: #9CCB97;
+	border-radius: 5px;
+}
+#FAQs a>h4 {
+	padding: 5px 30px;
+	margin: 5px auto;
+	color: #fff;
+}
+#FAQs a:hover, #FAQs a:focus {
+	text-decoration: none;
+	color: #89949B;
+}
+#FAQs h4 {
+	font-size: 28px;
+}
+#FAQs h4:before {
+	content: "-";
+	font-weight: 300;
+	font-size: 34px;
+	margin-right: 19px;
+	padding-left: 4px;
+}
+#FAQs a.collapsed h4:before {
+	content: "+";
+	padding-left: 0;
+	margin-right: 15px;
+}
+#FAQs .answer {
+	margin: auto 30px;
+	padding-bottom: 10px;
+	font-size: 17px;
+}
+
+
+
+
+
+
+/*-------------------------------------------
+Partners styles
+-------------------------------------------*/
+#partners {
+	margin-bottom: 80px;
+}
+#partners img { 
+	margin: 0 auto;
+	display: block;	
+	}
+	
+#partners .row {
+	margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------
+Support styles
+-------------------------------------------*/
+#landingpage .wpcf7-form input:hover[type="submit"] {
+	background: #9CCB97
+}
+
+#support #surveys {
+	text-align: center;
+}
+#support #blog ul li{
+	list-style: none;
+}
+#support #blog ul li  {
+	font-size: 19px;
+	margin: 15px 0;
+	display:block;
+}
+
+#support #blog ul li a {
+	font-size: 19px;
+	padding: 3px 0;
+	border-bottom: 1px solid rgb(51, 122, 185); 
+	}
+#support #blog ul li a:hover {
+	text-decoration: none;
+	}
+
+#support #surveys button {
+	width: 50%;
+	display: block;
+	margin: 5px auto;
+	height: 50px;
+	background-color: #9CCB97;
+	color:#fff;
+	font-size: 22px;
+   }
+#support #surveys a:hover {
+	text-decoration: none;
+}   
+   
+/*#support #surveys button:hover {
+   border-top-color: #28784a;
+   background: #28784a;
+   color: #cccccc;
+   }
+#support #surveys button:active {
+   border-top-color: #30d920;
+   background: #28784b;
+   }*/
+
+#wpcf7-f4-o1 {
+	width:80%;
+	margin:0 auto;
+}
+
+#wpcf7-f4-o1 input[type="text"], input[type="email"]{
+	width:48%;
+	padding:5px;
+	margin:5px;
+	float:left;
+}
+
+#wpcf7-f4-o1 input[type="submit"] {
+	width:50%;
+	margin: 10px auto;
+	padding: 5px 15px;
+	display: block;
+	color: #206119;
+	text-transform: uppercase;
+}
+#support div.wpcf7 img.ajax-loader {
+	margin: 5px auto;
+	display: block;
+}
+
+.wpcf7-form input:hover[type="submit"] { 
+    background:#4f2a0f; 
+    cursor:pointer; 
+    color:#fff; 
+}
+
+#wpcf7-f4-o1 .wpcf7-response-output{
+	text-align: center;
+	border:none;
+	font-size: 30px;
+	font-style: italic;
+	margin-top: 0;
+}
+
+#wpcf7-f4-o1 .wpcf7-mail-sent-ok {
+	color: #428bca;
+}
+
+#wpcf7-f4-o1 .wpcf7-validation-errors {
+	color: #ff0000;
+	font-size:20px;
+}
+
+#wpcf7-f4-o1 .wpcf7-not-valid {
+	border-bottom-color: #ff0000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------
+Blog Page Styles
+----------------------------------------------*/
+.blogpage .postinlist a.moretag {
+	display: inline-block;
+	padding: 2px 5px;
+	color: #fff;
+	background-color: rgb(31, 104, 157);
+	border-radius: 3px;
+	float:right;
+}
+.blogpage .postinlist a.moretag:hover, #blogpage .postinlist a.moretag:focus {
+	text-decoration: none;
+}
+
+/*Sidebar Styles---------*/
+.blogpage #blog-sidebar.widget-area #searchform .screen-reader-text {
+display: none;
+}
+.blogpage #blog-sidebar.widget-area #searchform  {
+	line-height:35px;
+}
+.blogpage #blog-sidebar.widget-area #searchform #s {
+	width:75%;
+}
+.blogpage #blog-sidebar.widget-area #searchform #searchsubmit {
+	text-transform: uppercase;
+	font-family: 'brandon-grotesque';
+	border-radius: 3px;
+	color: #fff;
+	background-color: rgb(31, 104, 157);	
+}
+.blogpage #blog-sidebar.widget-area ul li {
+	list-style-type: none;
+}
+.blogpage #blog-sidebar.widget-area ul {
+	margin-left: auto;
+	padding-left: 3px;
+}
+
