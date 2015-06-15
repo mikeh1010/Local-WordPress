@@ -173,10 +173,17 @@ FAQs styles
 Partners styles
 -------------------------------------------*/
 #partners {
-	margin-bottom: 80px;
+	background-color: white;
+	border-radius: 15px;
+	border: 1px solid rgb(51, 122, 183);
+	margin-top: 20px;
+}
+#partners h1 {
+	margin: 0 10px;
+	padding-top: 15px;
 }
 #partners img { 
-	margin: 0 auto;
+	float:right;
 	display: block;	
 	}
 	
@@ -184,7 +191,12 @@ Partners styles
 	margin-bottom: 15px;
 }
 
-
+#partners #tabpanel {
+	padding: 5px 20px;
+}
+#partners .tab-pane p {
+	padding: 15px;
+}
 
 
 

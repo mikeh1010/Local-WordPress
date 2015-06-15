@@ -175,43 +175,64 @@
 	<div id="partners">		
 		<h1>Our Partners</h1>        
 
-		<div class="row">
-			<div class="col-lg-6">
-			  <a href="http://www.lbbfliberia.org/" target="_blank">
-				<img src="<?php bloginfo('template_directory');?>/img/logo-LBBF.png" alt="LBBF">
-			  </a>			  
-			  <p><a href="http://www.lbbfliberia.org/">The Liberia Better Business Forum</a> strives to build a vibrant domestic Private Sector through investment that works with the Government of Liberia to create employment and economic growth for all in Liberia. LBBF is led by a Governing Board, which oversees the content and operation of the forum. The Board is co-chaired by a public and private sector representative. Comprised of public and private sector participants along with representatives of civil society and academia, LBBF engages dialogue aimed at improving the investment climate and increasing Private Sector participation in economic policy-making in Liberia; ensuring that the Private Sector is fully engaged as a partner with Government to contribute evidence-based recommendations and inputs into economic planning and policy. Focused on analyzing identified issues and barriers to doing business in Liberia, LBBF lobbys and advocates viable recommendations for reform and supporting the development of awareness creation, inclusion, consensus building, and cooperation within the Private Sector.</p>			  
-			</div>
-			
-			<div class="col-lg-6">
-			  <a href="http://www.spark-online.org/" target="_blank">
-				<img src="<?php bloginfo('template_directory');?>/img/logo-SPARK.png" alt="SPARK">
-			  </a>
-			  <p><a href="http://www.spark-online.org/" target="_blank">SPARK</a> is an independent international development organisation with offices in South-east Europe, Middle-East and Africa. SPARK focuses on youth, between 18-35 years, equipping them with knowledge, tools and motivation that allow them to play a unique role in leading their conflict affected societies into prosperity. SPARK believes that sustainable economic growth is essential for establishing self-reliance and thereby poverty alleviation. Creating jobs for youth in conflict affected societies and enabling an environment for youth to improve their socioeconomic position, are central in this vision. Through job creation SPARK aims to diminish the potential for conflict, giving special attention to marginalised groups, including women, returning refugees and internally displaces people.</p>        
-			</div>
-		</div><!-- .row -->
+		<div role="tabpanel" id="tabpanel">
 
-		<div class="row">
-			<div class="col-lg-6">
-			  <a href="http://www.drenl.co.uk/" target="_blank">
-				<img src="<?php bloginfo('template_directory');?>/img/logo-Drenl.png" alt="Drenl" >
-			  </a>
-			  <p><a href="http://www.drenl.co.uk/" target="_blank">Drenl</a> is a developer of materials recovery and low-carbon renewable energy projects - in particular Energy from Waste (EfW) schemes. Delivering affordable, low carbon renewable energy solutions for local communities across the globe, using the best in class technologies, Drenl brings power to the people. Developing sites capable of accepting a mix of renewable energy solutions such as combined heat and power are of particular interest.</p>			  
+		  <!-- Nav tabs -->
+		  <ul class="nav nav-tabs" role="tablist">
+			<li role="presentation" class="active"><a href="#spark" aria-controls="spark" role="tab" data-toggle="tab">SPARK</a></li>
+			<li role="presentation"><a href="#lbbf" aria-controls="lbbf" role="tab" data-toggle="tab">LBBF</a></li>
+			<li role="presentation"><a href="#drenl" aria-controls="drenl" role="tab" data-toggle="tab">Drenl</a></li>
+			<li role="presentation"><a href="#spciti" aria-controls="spciti" role="tab" data-toggle="tab">SPCitI</a></li>
+			<li role="presentation"><a href="#become" aria-controls="become" role="tab" data-toggle="tab">Become a Partner</a></li>
+		  </ul>
+
+		  <!-- Tab panes -->
+		  <div class="tab-content">
+
+			<div role="tabpanel" class="tab-pane" id="lbbf">
+				
+				<a href="http://www.lbbfliberia.org/" target="_blank">
+					<img src="<?php bloginfo('template_directory');?>/img/logo-LBBF.png" alt="LBBF">
+				</a>			  
+				<p><a href="http://www.lbbfliberia.org/">The Liberia Better Business Forum</a> strives to build a vibrant domestic Private Sector through investment that works with the Government of Liberia to create employment and economic growth for all in Liberia. LBBF is led by a Governing Board, which oversees the content and operation of the forum. The Board is co-chaired by a public and private sector representative. Comprised of public and private sector participants along with representatives of civil society and academia, LBBF engages dialogue aimed at improving the investment climate and increasing Private Sector participation in economic policy-making in Liberia; ensuring that the Private Sector is fully engaged as a partner with Government to contribute evidence-based recommendations and inputs into economic planning and policy. Focused on analyzing identified issues and barriers to doing business in Liberia, LBBF lobbys and advocates viable recommendations for reform and supporting the development of awareness creation, inclusion, consensus building, and cooperation within the Private Sector.</p>			  
+				
 			</div>
 			
-			<div class="col-lg-6">
-			  <a href="http://thespontaneouscityinternational.org/" target="_blank">
-				<img src="<?php bloginfo('template_directory');?>/img/logo-SPCitI.png" alt="SPCitI">
-			  </a>
-			  <p><a href="http://thespontaneouscityinternational.org/" target="_blank">SPCitI</a> explores and guides innovative urban planning processes. Based on a set of principles and the specific understanding of local context, it brings together people, knowledge and disciplines in a multi-stakeholder approach. The result is the organization and implementation of a collective planning strategy. The strategy includes ambitions, roles and responsibilities, commitment to projects. All stakeholders have clear agreements and mutual benefits. SpcitI has wide international guiding a variety of planning strategies and projects across the world with local partners.</p>        
+			<div role="tabpanel" class="tab-pane active" id="spark">
+				
+				<a href="http://www.spark-online.org/" target="_blank">
+					<img src="<?php bloginfo('template_directory');?>/img/logo-SPARK.png" alt="SPARK">
+				</a>
+				<p><a href="http://www.spark-online.org/" target="_blank">SPARK</a> is an independent international development organisation with offices in South-east Europe, Middle-East and Africa. SPARK focuses on youth, between 18-35 years, equipping them with knowledge, tools and motivation that allow them to play a unique role in leading their conflict affected societies into prosperity. SPARK believes that sustainable economic growth is essential for establishing self-reliance and thereby poverty alleviation. Creating jobs for youth in conflict affected societies and enabling an environment for youth to improve their socioeconomic position, are central in this vision. Through job creation SPARK aims to diminish the potential for conflict, giving special attention to marginalised groups, including women, returning refugees and internally displaces people.</p>        
+			
 			</div>
-			<hr>			
-		</div><!-- .row -->
-		
-		<h1>Become a Partner</h1>
-		<p>The SESEZ program is always looking for valuable new partnerships that can help strengthen the commitment to achieving our goals; developing inclusive economic growth and recovery in Liberia. Through collaborative partnerships and knowledge sharing networks, the SESEZ Program welcomes the opportunity to broaden our technical assistance and support base. To learn how you or your organization can contribute and/or partner in the delivery of the Liberian SESEZ Program, please contact the program director by clicking on the link below.</p>
-		
-	</div><!-- #partners -->	  	
+			
+			<div role="tabpanel" class="tab-pane" id="drenl">
+				
+				<a href="http://www.drenl.co.uk/" target="_blank">
+					<img src="<?php bloginfo('template_directory');?>/img/logo-Drenl.png" alt="Drenl" >
+				</a>
+				<p><a href="http://www.drenl.co.uk/" target="_blank">Drenl</a> is a developer of materials recovery and low-carbon renewable energy projects - in particular Energy from Waste (EfW) schemes. Delivering affordable, low carbon renewable energy solutions for local communities across the globe, using the best in class technologies, Drenl brings power to the people. Developing sites capable of accepting a mix of renewable energy solutions such as combined heat and power are of particular interest.</p>
+				
+			</div>
+			
+			<div role="tabpanel" class="tab-pane" id="spciti">
+				<a href="http://thespontaneouscityinternational.org/" target="_blank">
+					<img src="<?php bloginfo('template_directory');?>/img/logo-SPCitI.png" alt="SPCitI">
+				</a>
+				<p><a href="http://thespontaneouscityinternational.org/" target="_blank">SPCitI</a> explores and guides innovative urban planning processes. Based on a set of principles and the specific understanding of local context, it brings together people, knowledge and disciplines in a multi-stakeholder approach. The result is the organization and implementation of a collective planning strategy. The strategy includes ambitions, roles and responsibilities, commitment to projects. All stakeholders have clear agreements and mutual benefits. SpcitI has wide international guiding a variety of planning strategies and projects across the world with local partners.</p>        
+			</div>
+			
+			<div role="tabpanel" class="tab-pane" id="become">
+				
+				<p>The SESEZ program is always looking for valuable new partnerships that can help strengthen the commitment to achieving our goals; developing inclusive economic growth and recovery in Liberia. Through collaborative partnerships and knowledge sharing networks, the SESEZ Program welcomes the opportunity to broaden our technical assistance and support base. To learn how you or your organization can contribute and/or partner in the delivery of the Liberian SESEZ Program, please contact the program director by clicking on the link below.</p>
+				
+			</div>
+		  </div>
+
+		</div>	<!-- Tab panel -->
+	</div> <!-- id = 'support' -->	
+	
 
 	<hr>
 
