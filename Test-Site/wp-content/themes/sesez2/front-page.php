@@ -86,6 +86,17 @@
 	
 		<div class="col-md-6 FAQcontain">
 			<h3>The <em>What</em> and <em>Why</em>:</h3>
+			
+			<div class="FAQ-box">
+				<a class="collapsed" data-toggle="collapse" data-parent="#FAQs" href="#what5" aria-expanded="false" aria-controls="collapseExample">
+					<h4>What is the basis for the Liberian SESEZ program?</h4>
+				<div class="answer collapse" id="what5">
+				  <p>To develop a strong SESEZ program, a clear understanding of private sector development in Liberia and delivering socio-economic impact was needed. At first, the program focused on identifying the social and economic concerns identified by all stakeholders involved. This was done to align the program with national goals, to create consensus and confirm the need for specific socio-economic impact.</p>
+				  <p>In collecting this data the SESEZ program formulated a clear picture of what the most pressing social and economic development goals are, what obstacles hinder their attainment, and how the private sector has a role to play in addressing them. On a secondary level, we identified and examined the obstacles that hinder private sector growth for firms both big and small.</p>
+				</div>
+				</a>	
+			</div>
+			
 			<div class="FAQ-box">
 				<a class="collapsed" data-toggle="collapse" data-parent="#FAQs" href="#what1" aria-expanded="false" aria-controls="collapseExample">
 					<h4>Why develop a Special Economic Zone?</h4>
@@ -123,16 +134,6 @@
 					<h4>Is it just an SEZ for Social Enterprises?</h4>
 				<div class="answer collapse" id="what4">
 				  <p>Not quite... in Liberia, we’ve worked with entrepreneurs, policy makers, Liberian business associations, commerce groups, and the public to define the concept of a social enterprise. We created a broad local consensus around the concept of social enterprise, and inserted this in our program. In doing so, we are making sure the SESEZ is not just a space exclusively for social enterprises but an SEZ that delivers social impact through its operation and policies.</p>
-				</div>
-				</a>	
-			</div>
-			
-			<div class="FAQ-box">
-				<a class="collapsed" data-toggle="collapse" data-parent="#FAQs" href="#what5" aria-expanded="false" aria-controls="collapseExample">
-					<h4>What is the basis for the Liberian SESEZ program?</h4>
-				<div class="answer collapse" id="what5">
-				  <p>To develop a strong SESEZ program, a clear understanding of private sector development in Liberia and delivering socio-economic impact was needed. At first, the program focused on identifying the social and economic concerns identified by all stakeholders involved. This was done to align the program with national goals, to create consensus and confirm the need for specific socio-economic impact.</p>
-				  <p>In collecting this data the SESEZ program formulated a clear picture of what the most pressing social and economic development goals are, what obstacles hinder their attainment, and how the private sector has a role to play in addressing them. On a secondary level, we identified and examined the obstacles that hinder private sector growth for firms both big and small.</p>
 				</div>
 				</a>	
 			</div>
@@ -245,7 +246,7 @@
 			
 			<div role="tabpanel" class="tab-pane" id="become">
 				
-				<p>The SESEZ program is always looking for valuable new partnerships that can help strengthen the commitment to achieving our goals; developing inclusive economic growth and recovery in Liberia. Through collaborative partnerships and knowledge sharing networks, the SESEZ Program welcomes the opportunity to broaden our technical assistance and support base. To learn how you or your organization can contribute and/or partner in the delivery of the Liberian SESEZ Program, please <a href="mailto:email">contact the program.</a>.</p>
+				<p>The SESEZ program is always looking for valuable new partnerships that can help strengthen the commitment to achieving our goals; developing inclusive economic growth and recovery in Liberia. Through collaborative partnerships and knowledge sharing networks, the SESEZ Program welcomes the opportunity to broaden our technical assistance and support base. To learn how you or your organization can contribute and/or partner in the delivery of the Liberian SESEZ Program, please <a target="_blank" href="mailto:sesezliberia@gmail.com">contact the program.</a>.</p>
 				
 			</div>
 		  </div>
@@ -257,10 +258,9 @@
 	<div id="involved">
 		<h1>Be Involved</h1>
 		
-		<div class="col-md-4" id="surveys">
-			<h3>Provide Feedback in a Survey:</h3>
-			<a href="https://www.surveymonkey.com/s/LiberiaSESEZ" target="_blank"><button>Tenant Survey</button></a>
-			<a href="https://www.surveymonkey.com/s/LiberiaSESEZ" target="_blank"><button>Investor Survey</button></a>
+		<div class="col-md-4" id="petition">
+			<h3>Sign Our Petition:</h3>
+			<?php echo do_shortcode( '[contact-form-7 id="4" title="Homepage support form"]' ); ?>
 		</div>
 		
 		<div class="col-md-4" id="blog">
@@ -270,9 +270,9 @@
 				</ul>
 		</div>
 		
-		<div class="col-md-4" id="petition">
-			<h3>Sign Our Petition:</h3>
-			<?php echo do_shortcode( '[contact-form-7 id="4" title="Homepage support form"]' ); ?>
+		<div class="col-md-4" id="surveys">
+			<h3>We Need Your Feedback!</h3>
+			<a href="https://sesez.typeform.com/to/EgSsyu" target="_blank"><button>Take Our Survey</button></a>
 		</div>
 		
 		<hr>
