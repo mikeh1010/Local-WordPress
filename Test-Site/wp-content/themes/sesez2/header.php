@@ -25,7 +25,7 @@
 </head>
 
 <body>
-<!--<div class="menu-wrapper">
+<div class="menu-wrapper">
 	<div class="container">
 		<nav class="navbar navbar-static-top" role="navigation">
 			<div class="container">
@@ -40,11 +40,10 @@
 				</div>
 
 				<div id="navbar" class="navbar-collapse collapse">
-					<ul class="nav navbar-nav">
-						<li class="active"><a href="#">Home</a></li>
-						<li><a href="#about">Video</a></li>
-						<li><a href="#contact">Join The Discussion</a></li>
-						<li><a href="#contact">Contact</a></li>
+					<ul class="nav navbar-nav navbar-left">
+						<li class="active"><a href="/">Home</a></li>
+						<li><a href="/#video-thunderclap">Video</a></li>						
+						<li><a href="mailto:sesezliberia@gmail.com" target="_blank">Contact</a></li>
 								<!--<li class="dropdown">
 								  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">News <span class="caret"></span></a>
 								  <ul class="dropdown-menu" role="menu">
@@ -56,10 +55,10 @@
 									<li><a href="#">Separated link</a></li>
 									<li><a href="#">One more separated link</a></li>
 								  </ul>
-								</li> --><!--
+								</li> -->
 					</ul>
 				</div>
 			</div>
 		</nav>
 	</div>
-</div>-->
+</div>

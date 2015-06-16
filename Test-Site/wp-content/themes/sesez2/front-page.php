@@ -1,4 +1,4 @@
-<?php get_header(home); ?>
+<?php get_header(); ?>
     
 	<!-- Carousel
     ================================================== -->
@@ -80,12 +80,25 @@
 		<hr>
 	</div> <!-- Thunderclap -->
 
+	<div id="petition" class="container">
+		<h3>Sign Our Petition For New SEZ Legislation:</h3>
+		<?php echo do_shortcode( '[contact-form-7 id="4" title="Homepage support form"]' ); ?>
+	</div>
 	
 	<div id="FAQs">
 	<h1>Social Enterprise Special Economic Zone</h1>
 	
 		<div class="col-md-6 FAQcontain">
-			<h3>The <em>What</em> and <em>Why</em>:</h3>
+			<h3>The Why and What:</h3>
+			
+			<div class="FAQ-box">
+				<a class="collapsed" data-toggle="collapse" data-parent="#FAQs" href="#what1" aria-expanded="false" aria-controls="collapseExample">
+					<h4>Why develop a Special Economic Zone?</h4>
+				<div class="answer collapse" id="what1">
+				  <p>By using developing a Special Economic Zone we can create conditions for investors, laborers, and entrepreneurs that boost the doing business climate. In this way, we can address many of the obstacles identified in Liberia’s private sector. Additionally, we believe it's critical to focus on developing sectors and industries with the greatest potential to become competitive regionally and globally.</p>
+				</div>
+				</a>	
+			</div>			
 			
 			<div class="FAQ-box">
 				<a class="collapsed" data-toggle="collapse" data-parent="#FAQs" href="#what5" aria-expanded="false" aria-controls="collapseExample">
@@ -98,21 +111,21 @@
 			</div>
 			
 			<div class="FAQ-box">
-				<a class="collapsed" data-toggle="collapse" data-parent="#FAQs" href="#what1" aria-expanded="false" aria-controls="collapseExample">
-					<h4>Why develop a Special Economic Zone?</h4>
-				<div class="answer collapse" id="what1">
-				  <p>By using developing a Special Economic Zone we can create conditions for investors, laborers, and entrepreneurs that boost the doing business climate. In this way, we can address many of the obstacles identified in Liberia’s private sector. Additionally, we believe it's critical to focus on developing sectors and industries with the greatest potential to become competitive regionally and globally.</p>
-				</div>
-				</a>	
-			</div>
-			
-			<div class="FAQ-box">
 				<a class="collapsed" data-toggle="collapse" data-parent="#FAQs" href="#what2" aria-expanded="false" aria-controls="collapseExample">
 					<h4>What does the SESEZ program want to achieve?</h4>
 				<div class="answer collapse" id="what2">
 					<p>The objective of Liberia’s first SESEZ is to 1) develop an improved investment and doing business climate, in an industrial space that supports investment and inclusive private sector growth, and 2) attract local and international companies who’s operations inherently contribute to socio-economic development in Liberia.</p>
 				</div>
 				</a>
+			</div>
+			
+			<div class="FAQ-box">
+				<a class="collapsed" data-toggle="collapse" data-parent="#FAQs" href="#what3" aria-expanded="false" aria-controls="collapseExample">
+					<h4>Why support new SEZ Legislation?</h4>
+				<div class="answer collapse" id="what3">
+					<p>In order to provide legal precedent for the creation of the SESEZ, Liberia must first enact new SEZ Legislation to amend or repeal the Liberian Free Zone Act. This new legislation would provide the guidelines and administrative regime for developing Special Economic Zones in Liberia. By enacting this new legislation, Liberia will encourage new investment and domestic private sector development, and the SESEZ Program can realize the projected social and economic development benefits linked to the Social Enterprise SEZ model.</p>
+				</div>
+				</a>	
 			</div>
 			
 			<div class="FAQ-box">
@@ -141,7 +154,7 @@
 		</div><!-- half wide container-->	
 		
 		<div class="col-md-6">
-			<h3>The <em>How</em>:
+			<h3>The How:</h3>
 			<div class="FAQ-box">
 				<a class="collapsed" data-toggle="collapse" href="#how1" aria-expanded="false" aria-controls="collapseExample">
 					<h4>How do companies benefit from the SESEZ?</h4>	
@@ -204,6 +217,7 @@
 			<li role="presentation"><a href="#lbbf" aria-controls="lbbf" role="tab" data-toggle="tab">LBBF</a></li>
 			<li role="presentation"><a href="#drenl" aria-controls="drenl" role="tab" data-toggle="tab">Drenl</a></li>
 			<li role="presentation"><a href="#spciti" aria-controls="spciti" role="tab" data-toggle="tab">SPCitI</a></li>
+			<li role="presentation"><a href="#CISL" aria-controls="CISL" role="tab" data-toggle="tab">Cambridge University</a></li>
 			<li role="presentation"><a href="#become" aria-controls="become" role="tab" data-toggle="tab">Become a Partner</a></li>
 		  </ul>
 
@@ -244,6 +258,13 @@
 				<p><a href="http://thespontaneouscityinternational.org/" target="_blank">SPCitI</a> explores and guides innovative urban planning processes. Based on a set of principles and the specific understanding of local context, it brings together people, knowledge and disciplines in a multi-stakeholder approach. The result is the organization and implementation of a collective planning strategy. The strategy includes ambitions, roles and responsibilities, commitment to projects. All stakeholders have clear agreements and mutual benefits. SpcitI has wide international guiding a variety of planning strategies and projects across the world with local partners.</p>        
 			</div>
 			
+			<div role="tabpanel" class="tab-pane" id="CISL">
+				<a href="http://www.cisl.cam.ac.uk/" target="_blank">
+					<img src="<?php bloginfo('template_directory');?>/img/logo-CISL.png" alt="CISL">
+				</a>
+				<p><a href="http://www.cisl.cam.ac.uk/" target="_blank">The University of Cambridge Institute for Sustainability Leadership</a> has partnered with the SESEZ program through one of their Postgraduate Certificate in Sustainable Business research groups. The purpose of this research is to investigate the influence of spill-over effects in maximizing social impact in Liberia. Please take a moment to participate in their survey and become part of the SESEZ Program.</p>        
+			</div>
+			
 			<div role="tabpanel" class="tab-pane" id="become">
 				
 				<p>The SESEZ program is always looking for valuable new partnerships that can help strengthen the commitment to achieving our goals; developing inclusive economic growth and recovery in Liberia. Through collaborative partnerships and knowledge sharing networks, the SESEZ Program welcomes the opportunity to broaden our technical assistance and support base. To learn how you or your organization can contribute and/or partner in the delivery of the Liberian SESEZ Program, please <a target="_blank" href="mailto:sesezliberia@gmail.com">contact the program.</a>.</p>
@@ -258,19 +279,14 @@
 	<div id="involved">
 		<h1>Be Involved</h1>
 		
-		<div class="col-md-4" id="petition">
-			<h3>Sign Our Petition:</h3>
-			<?php echo do_shortcode( '[contact-form-7 id="4" title="Homepage support form"]' ); ?>
-		</div>
-		
-		<div class="col-md-4" id="blog">
+		<div class="col-md-6" id="blog">
 			<h3>Read Recent Posts:</h3>
 			<ul>
 				<?php wp_get_archives( array( 'type' => 'postbypost', 'limit' => 10, 'format' => 'html' ) ); ?>
 				</ul>
 		</div>
 		
-		<div class="col-md-4" id="surveys">
+		<div class="col-md-6" id="surveys">
 			<h3>We Need Your Feedback!</h3>
 			<a href="https://sesez.typeform.com/to/EgSsyu" target="_blank"><button>Take Our Survey</button></a>
 		</div>
