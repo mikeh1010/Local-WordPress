@@ -80,9 +80,16 @@
 		<hr>
 	</div> <!-- Thunderclap -->
 
-	<div id="petition" class="container">
-		<h3>Sign Our Petition For New SEZ Legislation:</h3>
-		<?php echo do_shortcode( '[contact-form-7 id="4" title="Homepage support form"]' ); ?>
+	<div id="petition-survey" class="container">
+		<div class="col-md-6">
+			<h3>Sign Our Petition For New SEZ Legislation:</h3>
+			<?php echo do_shortcode( '[contact-form-7 id="4" title="Homepage support form"]' ); ?>
+		</div>
+		
+		<div class="col-md-6" id="surveys">
+			<h3>We Need Your Feedback!</h3>
+			<a href="https://sesez.typeform.com/to/EgSsyu" target="_blank"><button>Take Our Survey</button></a>
+		</div>
 	</div>
 	
 	<div id="FAQs">
@@ -217,7 +224,7 @@
 			<li role="presentation"><a href="#lbbf" aria-controls="lbbf" role="tab" data-toggle="tab">LBBF</a></li>
 			<li role="presentation"><a href="#drenl" aria-controls="drenl" role="tab" data-toggle="tab">Drenl</a></li>
 			<li role="presentation"><a href="#spciti" aria-controls="spciti" role="tab" data-toggle="tab">SPCitI</a></li>
-			<li role="presentation"><a href="#CISL" aria-controls="CISL" role="tab" data-toggle="tab">Cambridge University</a></li>
+			<li role="presentation"><a href="#CISL" aria-controls="CISL" role="tab" data-toggle="tab">University of Cambridge</a></li>
 			<li role="presentation"><a href="#become" aria-controls="become" role="tab" data-toggle="tab">Become a Partner</a></li>
 		  </ul>
 
@@ -277,19 +284,16 @@
 	<hr>
 	
 	<div id="involved">
-		<h1>Be Involved</h1>
+		<h1>Recent Updates</h1>
 		
 		<div class="col-md-6" id="blog">
-			<h3>Read Recent Posts:</h3>
+			
 			<ul>
 				<?php wp_get_archives( array( 'type' => 'postbypost', 'limit' => 10, 'format' => 'html' ) ); ?>
 				</ul>
 		</div>
 		
-		<div class="col-md-6" id="surveys">
-			<h3>We Need Your Feedback!</h3>
-			<a href="https://sesez.typeform.com/to/EgSsyu" target="_blank"><button>Take Our Survey</button></a>
-		</div>
+		
 		
 		<hr>
 	</div><!-- #support -->
