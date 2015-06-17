@@ -25,6 +25,33 @@
 	add_filter('excerpt_more', 'new_excerpt_more');
 	
 	
+	//Create widget areas
+	function TEMPLATE_widgets_init() {
+		register_sidebar( array(
+			'name'          => 'Page Sidebar',
+			'id'            => 'page-sidebar',
+			'description'	=> 'This sidebar will display on subpages.',
+			'class' 		=> 'widget-class',
+			'before_widget' => '<div>',
+			'after_widget'  => '</div>',
+			'before_title'  => '<h2 class="rounded">',
+			'after_title'   => '</h2>',
+		) );
+		
+		register_sidebar( array(
+		'name'          => 'Blog Page Sidebar',
+		'id'            => 'blog-default',
+		'description'	=> 'This sidebar will display on any blog pages by default.',
+		'class' 		=> 'widget-class',
+		'before_widget' => '<div>',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h2 class="rounded">',
+		'after_title'   => '</h2>',
+		) );
+
+	}
+	add_action( 'widgets_init', 'TEMPLATE_widgets_init' );//Make sure function name matches above
+	//End of Widget fuctions
 	
 	
 	
