@@ -8,8 +8,8 @@
 Required setup items:
 1. Add a "Home" and "Blog" page in WP backend
 2. Go into Settings > Reading and select "Static Page" for Front page and Posts page
-3. Install plugin: "Wordpress SEO by Yoast"
-4. Change permalinks - post name
+3. Change permalinks to custom: /%category%/%postname%/
+4. Install plugin: "Wordpress SEO by Yoast"
 5. Install plugin: Contact Form 7
 6. Show "Custom Fields" on page editor
 7. Create functions.php file and add page thumbnails, custom menus, featured images
