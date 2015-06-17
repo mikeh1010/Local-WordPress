@@ -1,5 +1,5 @@
 <?php
-	//register custom menus
+	//Register Custom Menus
 	function register_my_menus() {
 	  register_nav_menus(
 		array(
@@ -9,7 +9,7 @@
 	  );
 	}
 	add_action( 'init', 'register_my_menus' );
-	
+	//END register custom menus
 	
 	
 	
