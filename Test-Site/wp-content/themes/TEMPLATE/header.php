@@ -49,26 +49,26 @@
 <!-- PHP allows custom CSS classes inserted by WP, page or plugin... https://codex.wordpress.org/Function_Reference/body_class#Default_Values -->
 <body <?php body_class(); ?>> 
 
-<div id="page" > <!-- class="hfeed site" Identifies the site as a blog - use it on blog header-->
-	
-<header>
-	<img id="header-img" src="" >
+	<div id="page" > <!-- class="hfeed site" Identifies the site as a blog - use it on blog header-->
+		
+		<header>
+			<img id="header-img" src="" >
 
-	<!-- Full width container for navigation menu -->
-	<section id="navbar-container">
-	
-		<!-- Display custom menu that selects this Location -->
-		<?php wp_nav_menu( array( 
-			'theme_location' => 'header-menu', 
-			'container' => 'nav', 
-			'container_id' => 'container-id',
-			'container_class' => 'container-class',
-			'menu_class' => 'menu-class1 menu-class2', //Class applied to UL
-			'menu_id' => 'menu-id', //ID applied to UL
-			) ); ?>
-	
-	</section>
+			<!-- Full width container for navigation menu -->
+			<section id="navbar-container">
+			
+				<!-- Display custom menu that selects this Location -->
+				<?php wp_nav_menu( array( 
+					'theme_location' => 'header-menu', 
+					'container' => 'nav', 
+					'container_id' => 'container-id',
+					'container_class' => 'container-class',
+					'menu_class' => 'menu-class1 menu-class2', //Class applied to UL
+					'menu_id' => 'menu-id', //ID applied to UL
+					) ); ?>
+			
+			</section>
 
-</header>
+		</header>
 
-<div id="content" class="site-content">
+		<div id="content" class="site-content">
