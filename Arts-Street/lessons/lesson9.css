@@ -1,0 +1,38 @@
+/*This is the CSS file for lesson9.html */
+
+h1 {
+	font-size: 25px;
+}
+h2 {
+	font-size: 20px;
+}
+ul li {
+	list-style-type: square;
+}
+a {
+	color: red;
+}
+div {
+	border-bottom: 1px solid gray;
+	margin-bottom: 50px;
+}
+
+
+
+
+
+
+/*---------------------
+Quote Section styles
+---------------------*/
+
+#quote {
+	background-color: #000;
+	color: #fff;
+}
+#quote h2 {
+	text-transform: uppercase;
+}
+#quote p {
+	font-style: italic;
+}
