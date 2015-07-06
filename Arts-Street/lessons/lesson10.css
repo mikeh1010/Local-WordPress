@@ -1,0 +1,62 @@
+/*This is the CSS file for lesson9.html */
+
+h1 {
+	font-size: 25px;
+
+}
+h2 {
+	font-size: 20px;
+}
+ul li {
+	list-style-type: square;
+}
+a {
+	color: red;
+}
+
+div {
+	border-bottom: 1px solid gray;
+	margin-bottom: 50px;
+}
+
+
+
+/*--------------------
+Center the page content 
+--------------------*/
+#page-content {
+	width: 900px;
+	margin: 0 auto;
+	background-color:white;
+	
+	overflow: auto;/*This keeps margins in check */
+	padding: 15px;
+}
+body {
+	background-color: blue;
+	margin: 0;
+	height:100%
+	
+}
+
+
+
+
+
+/*---------------------
+Quote Section styles
+---------------------*/
+
+#quote {
+	background-color: #000;
+	color: #fff;
+	
+	padding: 10px;
+	border: 2px dashed white;
+}
+#quote h2 {
+	text-transform: uppercase;
+}
+#quote p {
+	font-style: italic;
+}
