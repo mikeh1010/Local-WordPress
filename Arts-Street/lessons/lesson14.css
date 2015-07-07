@@ -14,7 +14,7 @@ a {
 	color: red;
 }
 
-div {
+section {
 	border-bottom: 1px solid gray;
 	margin-bottom: 50px;
 }
@@ -40,7 +40,7 @@ body {
 	width: 100%
 }
 #page-content {
-	padding: 15px;
+	padding: 10px;
 }
 
 
@@ -62,4 +62,54 @@ Quote Section styles
 }
 #quote p {
 	font-style: italic;
+}
+
+
+
+
+/*---------------------
+Photos listed next to each other
+---------------------*/
+.grid-img {
+	width:214px;
+	height: auto;
+	float:left;
+	padding: 0 3px;
+}
+.grid-img img {
+	max-width: 100%;
+}
+
+/*Three options to deal float containing div */
+#photo {
+	overflow:hidden;
+}
+/*
+#quote {
+	clear:both;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+*/
+
+@media (max-width: 1000px) {
+#wrapper {
+  width: 600px;
+  }
+.grid-img {
+  width: 284px;
+  }
+  }
+
+@media (max-width: 640px) {
+#wrapper {
+  width: 340px;
+  }
+.grid-img {
+  width: 314px;
+  }
 }
