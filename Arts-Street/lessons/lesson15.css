@@ -70,12 +70,12 @@ Quote Section styles
 /*---------------------
 Photos listed next to each other
 ---------------------*/
-.grid-img {
+/*.grid-img {
 	width:214px;
 	height: auto;
 	float:left;
 	padding: 0 3px;
-}
+}*/
 .grid-img img {
 	max-width: 100%;
 }
@@ -98,7 +98,7 @@ Photos listed next to each other
 
 /*---------------------
 Styles for Responsive Design
----------------------*/
+---------------------*
 
 @media (max-width: 1000px) {
 #wrapper {
@@ -116,4 +116,4 @@ Styles for Responsive Design
 .grid-img {
   width: 314px;
   }
-}
+}*/
