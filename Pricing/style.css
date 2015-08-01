@@ -64,6 +64,9 @@ body hr {
 	margin-top:50px;
 	clear:both;
 }
+#project-prices .selected ul {
+	border: 2px dashed black;
+}
 
 
 

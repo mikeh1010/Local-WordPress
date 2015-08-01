@@ -1,0 +1,269 @@
+/*
+Theme Name: Chateau
+Author: ClearWeb MGMT
+Author URI: www.ClearWebMGMT.com
+Description: Custom website for Chateau Salon Suites
+
+*/
+
+
+
+/*----------------------------------
+STYLES FOR HEADER
+-----------------------------------*/
+
+/*LOGO HEADER Styles */
+#store-link {
+	font-size: 20px;
+	float: right;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+#header-img {
+	display: block;
+	margin: 0 auto;
+	clear:right;
+}
+
+
+/*Stylize Navigation Menu */
+#page .navbar {
+	min-height: 30px;
+}
+#page #menu-bar {
+	border-top: 3px solid black; 
+}
+#page .navbar-default {
+	background-color: #fff;
+	border-color: #fff;
+	margin-bottom: 0;
+}
+#main-menu li a	{
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+	text-align: center;
+	color: magenta;
+	text-transform: uppercase;
+	
+	font-family: 'Montserrat', sans-serif;
+	font-size:19px;
+}
+#nav-calculator img {
+	width: 18px;
+}
+nav .col-sm-6 {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+
+/*Make Bootstrap sub-menus drop-down on hover*/
+@media (min-width: 979px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+#main-menu .navbar-nav {
+	float: none;
+}
+/*Only display navbar-brand on mobile because it says "MENU"*/
+.navbar-brand {
+	display:none;
+}
+}
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------
+****
+HOMEPAGE STYLES
+****
+-----------------------------------*/
+
+
+/*----------------------------------
+STYLES FOR Embed Map
+-----------------------------------*/
+.overlay {
+   background:transparent; 
+   position:relative; 
+   width:640px;
+   height:250px; /* your iframe height */
+   top:250px;  /* your iframe height */
+   margin-top:-250px;  /* your iframe height */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------
+STYLES FOR Circle Photos
+-----------------------------------*/
+#front-page #circles-row {
+	border-top: 3px solid gold;
+	border-bottom: 3px solid gold;
+	text-align: center;
+}
+#circles-row .container {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#circles-row img {
+	-webkit-border-radius: 999px;
+	-moz-border-radius: 999px;
+	border-radius: 999px;
+	border: 10px solid #fff;
+	height: 230px;
+	display:block;
+	margin: 0 auto;
+}
+.circle-content h3 {
+	font-family: montserrat light, open sans;
+	font-size: 16px;
+	color: #E41A70;
+}
+.circle-content p {
+	font-family: Open Sans Italic, open sans;
+	font-size: 14px;
+	line-height: 18px;
+}
+.circle-content a {
+	color: #E3C862;
+}
+.circle-content a:hover {
+	color:initial;
+	text-decoration: none;
+}
+
+
+
+
+/* ----------------------------------
+STYLES FOR BE YOUR OWN BOSS CTA
+----------------------------------- */
+#boss-CTA {
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.58);
+	color: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin: 30px auto;
+}
+#CTA-row {
+	padding: 60px 0;
+	background: url(http://subtlepatterns.com/patterns/gray_jean.png);
+}
+#CTA-row h2 {
+	font-family: montserrat bold, open sans;
+	font-size: 46px;
+	font-weight: 800;
+	color: magenta;
+}
+#CTA-row p {
+	font-family: open sans regular, open sans;
+	font-size: 24px;
+	line-height: 30px;
+	color: #000;
+	margin: 20px 0;
+}
+#CTA-row button { 
+	color: #fff;
+	background-color: magenta;
+	text-transform: uppercase;
+	
+	padding: 5px 25px;
+	border-radius: 10px;
+	margin: 30px auto;
+	
+	font-size: 18px;
+	font-family: montserrat bold, open sans;
+}
+
+
+
+
+
+
+/*----------------------------------
+STYLES FOR FOOTER
+-----------------------------------*/
+
+footer {
+	text-align: center;
+	
+}
+#bottom-row {
+	border-top: 2px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------
+------------------------------------
+------------------------------------
+		SUBPAGE STYLES
+------------------------------------
+------------------------------------
+-----------------------------------*/
+
+
+
+
+
+
+
+
+
+/*----------------------------------
+STYLES FOR Directory
+-----------------------------------*/
+@media (max-width: 767px) {
+	#directory-page #table-headings {
+		display:none;
+	}
+
+}
