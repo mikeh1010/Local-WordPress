@@ -60,22 +60,19 @@
 		<header>
 				
 			<!--Logo in header -->
-			<div class="container">
-				
-				<a href="http://www.google.com">
-				<div id="ribbon">
-				  <div id="figure">
-					
-				  </div>
+			<div id="yellow-bar">
+				<div class="container">
+					<p>Call us at 303-295-3822 or 303-656-0103</p>
+					<p>My Account</p>
 				</div>
-				</a>
 				
-				
-				<!--<h2 id="store-link">Visit Our Store</h2>-->
-				<a href="/"><img id="header-img" alt="Chateau Salon Suites" src="<?php bloginfo('template_directory');?>/img/logo.png" ></a>
 			</div>
 				
-				
+			<div id="top-logo">
+				<a href="<?php home_url(); ?>">
+					<img src="http://www.pedicab.com/images/main-street-pedicabs-header.jpg">
+				</a>
+			</div>
 				
 				
 				
@@ -98,26 +95,33 @@
 				<div class="collapse navbar-collapse" id="main-menu">
 				  
 				  <ul class="nav navbar-nav">
-					<li class="col-md-2 col-sm-4">
-						<a href="/">Home</a>
+					<li class="col-md-2">
+						<a href="/Local-Wordpress/Test-site/">About</a>
 					</li>
-					<li class="col-md-2 col-sm-4">
-						<a href="/about">About</a>
+					<li class="col-md-2">
+						<a href="/Local-Wordpress/Test-site/pedicabs">Pedicabs</a>
 					</li>
 		
-					<li class="parent dropdown col-md-3 col-sm-4">
-						<a href="/lease">Lease a Suite</a>
-						<ul class="dropdown-menu sub-menu" role="menu">
+					<li class="col-md-2">
+					<!--<li class="parent dropdown col-md-3 col-sm-4">-->
+						<a href="/Local-Wordpress/Test-site/blog">Blog</a>
+						<!--<ul class="dropdown-menu sub-menu" role="menu">
 							<li class=""><a href="/directory">Directory</a></li>									
+						</ul>-->
+					</li>
+					<li class="col-md-2">
+						<a href="#">Videos</a>
+					</li>
+					<li class="col-md-2 parent dropdown">
+						<a href="/Local-Wordpress/Test-site/operators">Operators</a>
+						<ul class="dropdown-menu sub-menu" role="menu">
+							<li class=""><a href="/directory">Advertising</a></li>									
+							<li class=""><a href="/directory">FAQs</a></li>									
 						</ul>
 					</li>
-					<li class="col-md-3 col-sm-6" id="nav-calculator">
-						<a href="#">
-							<img src="<?php bloginfo('template_directory');?>/img/calculator.png">
-							Income Calculator
-						</a>
+					<li class="col-md-2">
+						<a href="/contact">Contact</a>
 					</li>
-					<li class="col-md-2 col-sm-6"><a href="/contact">Contact Us</a></li>
 					
 					
 					<!--<li class="dropdown col-md-2">

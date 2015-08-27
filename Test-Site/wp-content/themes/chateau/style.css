@@ -8,9 +8,81 @@ Description: Custom website for Chateau Salon Suites
 
 
 
+
+
+
+/*----------------------------------
+BASIC STYLES
+-----------------------------------*/
+body h2 {
+	font-family: montserrat light, open sans;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #E41A70;
+}
+
+body hr {
+ border-top: 1px solid #D6D4D4;
+ margin: 40px auto;
+}
+
+
+
+
+
+
+
+
+
 /*----------------------------------
 STYLES FOR HEADER
 -----------------------------------*/
+
+/*STYLES FOR TOP LEFT RIBBON */
+#ribbon {
+  position: relative;
+  margin: 0 auto;
+  height: 35px;
+  width: 150px;
+  background-color: #AD2E58;
+  
+  float:right;
+}
+#ribbon:hover {
+  background-color: #E43D70;
+}
+#ribbon:hover:before {
+   border-color: #E43D70 #E43D70 transparent #E43D70;
+}
+#ribbon:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  border-style: solid;
+  border-width: 35px 75px;
+  border-color: #AD2E58 #AD2E58 transparent #AD2E58;
+  z-index: -1;
+}
+
+#figure {
+  
+  height: 140%;
+  margin: 0 auto;
+
+  padding-top: 10px;
+  text-align: center;
+}
+#figure:before {
+  content: "VISIT OUR STORE";
+  color: white;
+  text-shadow: 0 1px 0 black;
+}
+
+
+
+
+
+
 
 /*LOGO HEADER Styles */
 #store-link {
@@ -39,8 +111,8 @@ STYLES FOR HEADER
 	margin-bottom: 0;
 }
 #main-menu li a	{
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 
 	text-align: center;
 	color: magenta;
@@ -48,6 +120,9 @@ STYLES FOR HEADER
 	
 	font-family: 'Montserrat', sans-serif;
 	font-size:19px;
+}
+#main-menu li:hover {
+	background-color: #f5f5f5;
 }
 #nav-calculator img {
 	width: 18px;
@@ -57,6 +132,16 @@ nav .col-sm-6 {
 	padding-right: 0;
 }
 
+
+header .nav .dropdown-menu {
+	padding: 0;
+	width: 100%;
+	border-top: 0;
+}
+header #main-menu .nav .dropdown-menu a {
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
 
 /*Make Bootstrap sub-menus drop-down on hover*/
 @media (min-width: 979px) {
@@ -132,20 +217,19 @@ STYLES FOR Circle Photos
 	-webkit-border-radius: 999px;
 	-moz-border-radius: 999px;
 	border-radius: 999px;
-	border: 10px solid #fff;
+	border: 5px solid #FFD700;
 	height: 230px;
 	display:block;
 	margin: 0 auto;
 }
-.circle-content h3 {
-	font-family: montserrat light, open sans;
-	font-size: 16px;
-	color: #E41A70;
+#circles-row #larger-circle img {
+	height: 280px;
 }
+
 .circle-content p {
 	font-family: Open Sans Italic, open sans;
-	font-size: 14px;
-	line-height: 18px;
+	font-size: 16px;
+	line-height: 25px;
 }
 .circle-content a {
 	color: #E3C862;
@@ -165,42 +249,47 @@ STYLES FOR BE YOUR OWN BOSS CTA
 	text-align: center;
 	background-color: rgba(255, 255, 255, 0.58);
 	color: white;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 20px;
+	padding-bottom: 40px;
 	margin: 30px auto;
 }
 #CTA-row {
-	padding: 60px 0;
+	padding: 20px 0;
 	background: url(http://subtlepatterns.com/patterns/gray_jean.png);
 }
 #CTA-row h2 {
 	font-family: montserrat bold, open sans;
-	font-size: 46px;
+	font-size: 35px;
 	font-weight: 800;
 	color: magenta;
 }
 #CTA-row p {
 	font-family: open sans regular, open sans;
-	font-size: 24px;
+	font-size: 20px;
 	line-height: 30px;
 	color: #000;
 	margin: 20px 0;
 }
-#CTA-row button { 
+#CTA-row button, .wpcf7-submit { 
 	color: #fff;
 	background-color: magenta;
 	text-transform: uppercase;
 	
 	padding: 5px 25px;
 	border-radius: 10px;
-	margin: 30px auto;
 	
 	font-size: 18px;
 	font-family: montserrat bold, open sans;
 }
-
-
-
+#CTA-row button a { 
+	color:#fff;
+	text-decoration: none;
+}
+#CTA-row button a:hover { 
+	color:#000;
+	text-decoration: none;
+	
+}
 
 
 
@@ -208,21 +297,122 @@ STYLES FOR BE YOUR OWN BOSS CTA
 STYLES FOR FOOTER
 -----------------------------------*/
 
-footer {
+footer #footer-widgets{
 	text-align: center;
+	margin-top: 30px;
 	
 }
-#bottom-row {
+footer h2 {
+	margin-bottom: 40px; 
+}
+#bottom-stripe {
 	border-top: 2px solid black;
+}
+#bottom-stripe li {
+	display: inline-block;
+	margin: 0 10px;
+	text-transform: uppercase;
+	color: #E41A70;
+}
+#bottom-stripe ul {
+	text-align: left;
+	margin-top: 10px;
+	padding-left: 0;
+}
+#bottom-stripe p {
+	text-align: right;
+	margin-top: 10px;
 }
 
 
 
+/*----------
+RIBBON 
+-----------*/
+.footer-hr {
+	margin-top: 10px;
+}
+/*Positioning the ribbon */
+#footer-stripe {
+	min-height: 60px;
+	margin: 0 auto;
+	width: 600px;
+}
 
 
+.ribbon {
+   width: 600px;
+   position: absolute;
+   text-align: center;
+   font-family: 'Helvetica Neue',Helvetica, sans-serif;
+   background: #AD2E58;
+   
+   font-size: 20px!important;
 
+/*   background: -webkit-gradient(linear, left top, left bottom, from(#d64b4b), to(#ab2c2c));
+   background: -webkit-linear-gradient(top, #d64b4b, #ab2c2c);
+   background: -moz-linear-gradient(top, #d64b4b, #ab2c2c);
+   background: -ms-linear-gradient(top, #d64b4b, #ab2c2c);
+   background: -o-linear-gradient(top, #d64b4b, #ab2c2c);
+   background-image: -ms-linear-gradient(top, #d64b4b 0%, #ab2c2c 100%);*/
+   -webkit-box-shadow: rgba(000,000,000,0.3) 0 1px 1px;
+   -moz-box-shadow: rgba(000,000,000,0.3) 0 1px 1px;
+   box-shadow: rgba(000,000,000,0.3) 0 1px 1px;
+   }
+.ribbon h3 {
+	color:white;
+   margin:0px;
+   padding-top: 10px;
+   padding-bottom: 3px;
+   font-size: 22px;
+   }  
+.ribbon-content p {
+	color: #fff;
+	font-size: 16px;
+}
 
-
+.ribbon:before, .ribbon:after {
+   content: '';
+   position: absolute;
+   display: block;
+   bottom: -1em;
+   border: 1.5em solid #AD2E58;
+   z-index: -1;
+   }
+.ribbon:before {
+   left: -2em;
+   border-right-width: 1.5em;
+   border-left-color: transparent;
+   -webkit-box-shadow: rgba(000,000,000,0.4) 1px 1px 1px;
+   -moz-box-shadow: rgba(000,000,000,0.4) 1px 1px 1px;
+   box-shadow: rgba(000,000,000,0.4) 1px 1px 1px;
+   }
+.ribbon:after {
+   right: -2em;
+   border-left-width: 1.5em;
+   border-right-color: transparent;
+   -webkit-box-shadow: rgba(000,000,000,0.4) -1px 1px 1px;
+   -moz-box-shadow: rgba(000,000,000,0.4) -1px 1px 1px;
+   box-shadow: rgba(000,000,000,0.4) -1px 1px 1px;
+   }
+ 
+/*Edges of the ribbon that make it 3D */
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+   border-color: #871616 transparent transparent transparent;
+   position: absolute;
+   display: block;
+   border-style: solid;
+   bottom: -1em;
+   content: '';
+   }
+.ribbon .ribbon-content:before {
+   left: 0;
+   border-width: 1em 0 0 1em;
+   }
+.ribbon .ribbon-content:after {
+   right: 0;
+   border-width: 1em 1em 0 0;
+}
 
 
 
@@ -250,11 +440,39 @@ footer {
 ------------------------------------
 -----------------------------------*/
 
+#title-hr {
+	border-top: 1px solid #D3D3D3;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.page-content h2 {
+	margin-bottom: 50px;
+}
 
 
 
 
-
+/*----------------------------------
+STYLES FOR /LEASE Page
+-----------------------------------*/
+.circle-content {
+	text-align: center;
+}
+.circle-content h2 {
+	text-transform: initial;
+	margin-bottom: 15px;
+}
+#suite-includes {
+	font-size: 19px;
+	line-height: 30px;
+	overflow: hidden;
+}
+#suite-includes ul {
+	padding-left: 15%;
+}
+#other-services {
+	
+}
 
 
 
@@ -266,4 +484,21 @@ STYLES FOR Directory
 		display:none;
 	}
 
+}
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------
+STYLES FOR Contact Page
+-----------------------------------*/
+#contact-page #our-info span {
+	text-transform: none;
 }

@@ -17,20 +17,20 @@ get_header(); ?>
 	  <!-- Wrapper for slides -->
 	  <div class="carousel-inner" role="listbox">
 		<div class="item active">
+		  <img src="<?php bloginfo('template_directory');?>/img/hallway-slider.jpg" alt="slide 1" />
+		</div>
+
+		<div class="item">
+		  <img src="<?php bloginfo('template_directory');?>/img/booth-slider.jpg" alt="slide 1" />
+		</div>
+
+		<!--<div class="item">
 		  <img src="<?php bloginfo('template_directory');?>/img/slider_man.jpg" alt="slide 1" />
 		</div>
 
 		<div class="item">
 		  <img src="<?php bloginfo('template_directory');?>/img/slider_man.jpg" alt="slide 1" />
-		</div>
-
-		<div class="item">
-		  <img src="<?php bloginfo('template_directory');?>/img/slider_man.jpg" alt="slide 1" />
-		</div>
-
-		<div class="item">
-		  <img src="<?php bloginfo('template_directory');?>/img/slider_man.jpg" alt="slide 1" />
-		</div>
+		</div>-->
 	  </div>
 
 	  <!-- Left and right controls -->
@@ -49,20 +49,20 @@ get_header(); ?>
 		
 		
 			<div class="circle-content col-md-4">
-				<img src="<?php bloginfo('template_directory');?>/img/circle-img.png" >
-				<h3>Be Your Own Boss</h3>
+				<img src="<?php bloginfo('template_directory');?>/img/suite-owner.jpg" >
+				<h2>Be Your Own Boss</h2>
 				<p>Isn’t it time you worked for yourself? With Chateau Salon Suites, making it happen is easier than you think!</p>
 				<!--<a>Read More</a>-->
 			</div>
-			<div class="circle-content col-md-4">
-				<img src="<?php bloginfo('template_directory');?>/img/circle-img.png" >
-				<h3>Increases Your Profits</h3>
+			<div class="circle-content col-md-4" id="larger-circle">
+				<img src="<?php bloginfo('template_directory');?>/img/suite-owner2.jpg" >
+				<h2>Increases Your Profits</h2>
 				<p>With our single and double occupancy suite options, nail salon suites, aestheticians, massage therapists and others, we have something for every business owner!  You are sure to find a space to fit you and the needs of your clients.</p>
 				<!--<a>Read More</a>-->
 			</div>
 			<div class="circle-content col-md-4">
-				<img src="<?php bloginfo('template_directory');?>/img/circle-img.png" >
-				<h3>Join Our Network of Independent Salon Professionals</h3>
+				<img src="<?php bloginfo('template_directory');?>/img/suite-owner.jpg" >
+				<h2>Join Our Network of Independent Salon Professionals</h2>
 				<p>The secret is out!! Let us usher you into the future of the salon and spa industry.</p>
 				<!--<a>Read More</a>-->
 			</div>
@@ -79,7 +79,7 @@ get_header(); ?>
 			<h2>Want to be your own boss?</h2>
 			<p>Our stylists make more money and set their own schedules.
 			<br />Start your own business without all the overhead</p>
-			<button>Get More Information</button>
+			<a href="/lease"><button>Get More Information</button></a>
 		</div>
 		
 	</section>
