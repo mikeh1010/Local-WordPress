@@ -1,0 +1,426 @@
+/*
+Theme Name: Pedicab 2
+Author: ClearWeb MGMT
+Author URI: www.ClearWebMGMT.com
+Description: Custom website for Pedicab.com
+
+*/
+
+
+
+
+
+
+/*----------------------------------
+BASIC STYLES
+-----------------------------------*/
+body#theme-body {
+	background-color: #c90;
+}
+#page {
+	background-color: #fff;
+	padding: 0;
+}
+
+
+#page {
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+h1 {
+	
+}
+h2 {
+	
+}
+h3 {
+	
+}
+h4 {
+	
+}
+p {
+	font-size:16px;
+}
+a{
+
+}
+
+
+img {
+	max-width: 100%;
+}
+a:hover img {
+		transition: opacity 0.5s ease 0s;
+		opacity: .5;
+
+}
+.overflow-fix {
+	overflow:hidden;
+}
+.alignleft {
+	float:left;
+	margin-right: 10px;
+}
+.alignright {
+	float:right;
+	margin-left: 10px;
+}
+.aligncenter {
+	display:block;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------
+STYLES FOR HEADER
+-----------------------------------*/
+
+
+/*------------------
+Stylize Navigation Menu 
+-------------------*/
+#page .navbar {
+	min-height: 30px;
+}
+header {
+	background-color: #fff;
+}
+#page header img {
+	padding: 0;
+}
+
+#page .navbar-default {
+	background-color: #fff;
+	border-color: #fff;
+	margin-bottom: 0;
+}
+
+#main-menu li a	{
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+	text-align: center;
+	color: #000;
+	
+	
+	font-family: Arial, Helvetica, Geneva;
+	font-size:20px;
+	font-weight: 700;
+}
+
+
+/*No hover effect on background color*/
+#main-menu li:hover, .dropdown-menu li, .dropdown-menu li:hover, #main-menu .dropdown-menu>li>a:hover {
+	background-color: #fff;
+}
+/*Adding a hover effect - bottom border */
+#main-menu a {
+	border-bottom: 2px solid #fff;
+}
+#main-menu a:hover {
+	border-bottom: 2px solid #000;
+}
+
+/*Dropdown menu */
+header .nav .dropdown-menu {
+	padding: 0;
+	width: 100%;
+	border-top: 0;
+}
+header #main-menu .nav .dropdown-menu a {
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+/*Make Bootstrap sub-menus drop-down on hover*/
+@media (min-width: 979px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+
+/*Only display navbar-brand on mobile (it just says "MENU")*/
+.navbar-brand {
+	display:none;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------
+------------------------------------
+HOMEPAGE STYLES
+------------------------------------
+-----------------------------------*/
+#slider {
+	border-top: 1px solid rgba(128, 128, 128, 0.25);
+}
+
+#front-page section {
+	margin: 35px 0;	
+	padding: 15px 25px;
+}
+#front-page h1 {
+	text-align:center;
+	margin: 50px 0;
+}
+
+
+
+#three-icons {
+	text-align: center;
+	
+}
+#three-icons img {
+	padding: 0 60px;
+}
+
+
+#fullwidth-bio {
+	background-color: #D8D7D7;
+	
+}
+
+
+#homepage-blog img {
+	width: 250px;
+}
+
+#where-pedicabs #examples div {
+	text-align:center;
+	padding: 0 65px;
+}
+#where-pedicabs h4 {
+	padding: 15px;
+	border: 1px solid black;
+}
+#where-pedicabs a {
+	color: #c90;
+	text-align: center;
+	margin-top: 15px;
+}
+#where-pedicabs a h2 {
+	font-size: 25px;
+}
+
+
+#media-resources #news h3{
+	font-size: 20px;
+}
+#media-resources #news h4{
+	font-size: 15px;
+}
+#media-resources #news a {
+	display:block;
+	margin: 30px 0;
+	color: #c90;
+}
+#media-resources #news a:hover {
+	text-decoration: none;
+	color: #337ab7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------
+------------------------------------
+------------------------------------
+STYLES FOR FOOTER
+------------------------------------
+------------------------------------
+-----------------------------------*/
+
+footer #footer-widgets{
+	margin-top: 30px;
+	overflow:hidden;
+}
+footer #footer-widgets li {
+	list-style: none;
+	color: #000;
+}
+footer h2 {
+	margin-bottom: 40px; 
+}
+#bottom-stripe {
+	border-top: 2px solid black;
+}
+#bottom-stripe li {
+	display: inline-block;
+	margin: 0 10px;
+	text-transform: uppercase;
+	
+}
+#bottom-stripe ul {
+	text-align: left;
+	margin-top: 10px;
+	padding-left: 0;
+}
+#bottom-stripe p {
+	text-align: right;
+	margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------
+------------------------------------
+------------------------------------
+		SUBPAGE STYLES
+------------------------------------
+------------------------------------
+-----------------------------------*/
+
+.subpage-content {
+	background-color: #fff;
+}
+#title-hr {
+	border-top: 1px solid #D3D3D3;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.page-content h2 {
+	margin-bottom: 50px;
+}
+#subpage-template, #front-page .container {
+	-webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+
+
+
+
+
+
+
+
+/*------------------------------
+	Sidebar Styles 
+------------------------------*/
+#sidebar-content {
+	margin-top: 70px;
+}
+#sidebar-models {
+	overflow: hidden;
+	margin-bottom: 25px;
+}
+
+.sidebar-button {
+	margin: 15px;
+	font-size: 22px;	
+	background-color: #c90;
+	padding: 10px;
+	border-radius: 5px;
+}
+.sidebar-button span {
+	margin: 0 5px;
+}
+#sidebar-buttons a {
+	color: #fff;
+}
+#sidebar-buttons a:hover {
+	text-decoration: none;
+	color: #fff;
+	font-weight: 600;
+}
+#sidebar-contact {
+	padding: 3px;
+	border: 2px solid #fff;
+	border-radius: 15px;
+}
+#sidebar-contact:hover {
+	border: 2px solid #c90;
+}
+#sidebar-contact img {
+	border-radius: 15px;
+}
+#sidebar-contact img:hover {
+	opacity: 1;
+}
