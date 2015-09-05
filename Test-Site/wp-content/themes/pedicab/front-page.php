@@ -4,7 +4,6 @@
 get_header(); ?>
 
 <div id="front-page" class="page-content">
-<div class="container">	
 	
 	<section class="" id="slider">
 		<div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -46,7 +45,7 @@ get_header(); ?>
 		  </a>
 		</div>
 	</section>
-	
+	<!--
 	<section id="products" class="">
 		<h3>Featured Products</h3>
 	
@@ -84,7 +83,7 @@ get_header(); ?>
 			</a>
 		</div>
 	
-	</section>
+	</section>-->
 
 	<section id="about-home">
 		
@@ -93,7 +92,9 @@ get_header(); ?>
 		<div>
 			<h3>We are Main Street Pedicabs</h3>
 			<p>We have been perfecting the design of human-powered vehicles since 1992. Our products are high-quality, manufactured at our headquarters in Colorado, USA. We are a proud supporter of all green initiatives that contribute to reducing our carbon footprint.</p>
-			<button>Our Story</button>
+			<a href="/Local-Wordpress/Test-site/about">
+				<button>Our Story</button>
+			</a>
 		</div>
 	</section>
 	
@@ -105,7 +106,7 @@ get_header(); ?>
 		<div class="col-sm-6">	
 			<a href="/Local-Wordpress/Test-site/pedicabs/boardwalk">	
 				<img src="<?php bloginfo('template_directory');?>/img/model-boardwalk.jpg">
-				<p>The Boardwalk Pedicab™ is a new family favorite! Perfect for taking the kids to the store, your friends to town or a weekend ride.</p>
+				<p>The Boardwalk Pedicab™ is a new family favorite! Perfect for a trip to the store or a weekend ride.</p>
 				<button>Boardwalk Pedicab</button>
 			</a>	
 		</div>
@@ -126,7 +127,7 @@ get_header(); ?>
 		<div class="col-sm-6">	
 			<a href="/Local-Wordpress/Test-site/pedicabs/pedal-pickup">	
 				<img src="<?php bloginfo('template_directory');?>/img/model-pickup.jpg">
-				<p>The Pedal Pickup™ is an innovative way for any community, organization or business to provide cargo transport.</p>
+				<p>The Pedal Pickup™ is an innovative way for any organization or business to provide cargo transport.</p>
 				<button>Pedal Pickup</button>
 			</a>
 		</div>
@@ -135,16 +136,16 @@ get_header(); ?>
 	
 	
 	<section id="resources">
-		<div class="col-xs-6">
+		<div class="col-sm-6">
 			<h3>Replacement Parts by Category</h3>
-			<ul class="col-xs-6">
+			<ul class="col-sm-6">
 				<li>Accessories/Apparel</li>
 				<li>Brakes and Brake Parts</li>
 				<li>Canopies and Interiors</li>
 				<li>Carriage and Frame</li>
 				<li>Differential Parts</li>
 			</ul>
-			<ul class="col-xs-6">
+			<ul class="col-sm-6">
 				<li>Drivetrain Parts</li>
 				<li>Lighting System</li>
 				<li>Seating/Steering</li>
@@ -153,7 +154,7 @@ get_header(); ?>
 			</ul>
 		</div>
 		
-		<div class="col-xs-6">
+		<div class="col-sm-6">
 			<h3>Resources For Operators/Owners:</h3>
 			<ul>
 				<li>Main Street Pedicab Owner Manual</li>
@@ -173,32 +174,32 @@ get_header(); ?>
 			<a href="/">
 				<img src="http://www.pedicab.com/wordpress/wp-content/uploads/2014/02/ucdavis_in_action-300x224.jpg">
 			</a>
-			<p class="title">Drive Hub Complete</p>
-			<p class="price">$125.00</p>
+			<p class="title">Pedicabs on College Campuses</p>
+			
 			<button>Read More</button>
 		</div>
 		<div class="col-sm-3 col-xs-6">
 			<a href="/">
-				<img src="http://www.pedicab.com/wordpress/wp-content/uploads/2014/02/ucdavis_in_action-300x224.jpg">
+				<img src="http://www.pedicab.com/images/go-green-pedicab.jpg">
 			</a>
-			<p class="title">Drive Hub Complete</p>
-			<p class="price">$125.00</p>
+			<p class="title">Pedicab vs Taxicab NYC</p>
+			
 			<button>Read More</button>
 		</div>
 		<div class="col-sm-3 col-xs-6">
 			<a href="/">
-				<img src="http://www.pedicab.com/wordpress/wp-content/uploads/2014/02/ucdavis_in_action-300x224.jpg">
+				<img src="http://www.pedicab.com/images/broadway-review.jpg">
 			</a>
-			<p class="title">Drive Hub Complete</p>
-			<p class="price">$125.00</p>
+			<p class="title">Broadway Pedicab Review</p>
+			
 			<button>Read More</button>
 		</div>
 		<div class="col-sm-3 col-xs-6">
 			<a href="/">
-				<img src="http://www.pedicab.com/wordpress/wp-content/uploads/2014/02/ucdavis_in_action-300x224.jpg">
+				<img src="http://www.pedicab.com/images/austin_pedicab.jpg">
 			</a>
-			<p class="title">Drive Hub Complete</p>
-			<p class="price">$125.00</p>
+			<p class="title">Pedicabs at Texas Festival</p>
+			
 			<button>Read More</button>
 		</div>
 	

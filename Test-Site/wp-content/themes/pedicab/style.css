@@ -35,6 +35,9 @@ body hr {
 }
 
 .site-content {
+	background-color: #c90;
+}
+.site-content .container {
 	background-color: #f3f3f3;
 }
 
@@ -65,6 +68,7 @@ STYLES FOR HEADER
 #yellow-bar p {
 	display: inline-block;
 	float:right;
+	margin: 0 10px;
 }
 
 #header-img {
@@ -202,9 +206,9 @@ HOMEPAGE STYLES
 }
 
 #about-home {
-	background-color: #c90;
+	background-color: #fff;
 	padding: 15px 0;
-	color:#fff;
+	color:#000;
 }
 #about-home img {
 	border-radius: 35px;
@@ -240,9 +244,12 @@ STYLES FOR FOOTER
 -----------------------------------*/
 
 footer #footer-widgets{
-	text-align: center;
 	margin-top: 30px;
-	
+	overflow:hidden;
+}
+footer #footer-widgets li {
+	list-style: none;
+	color: #000;
 }
 footer h2 {
 	margin-bottom: 40px; 
@@ -254,7 +261,7 @@ footer h2 {
 	display: inline-block;
 	margin: 0 10px;
 	text-transform: uppercase;
-	color: #E41A70;
+	
 }
 #bottom-stripe ul {
 	text-align: left;
@@ -316,7 +323,11 @@ footer h2 {
 .page-content h2 {
 	margin-bottom: 50px;
 }
-
+#subpage-template, #front-page .container {
+	-webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+}
 
 
 

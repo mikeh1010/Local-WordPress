@@ -1,7 +1,7 @@
 <!--Footer for TEMPLATE theme -->
-</div><!-- #content .site-content -->
 
-<hr class="container footer-hr">
+
+<hr class="footer-hr">
 <footer>
 
 	<!--Partner logos or any other persistent footer element -->
@@ -13,7 +13,7 @@
 	
 	<!-- Footer widgets -->
 	
-	<div class="container" id="footer-widgets">
+	<div id="footer-widgets">
 		
 		<div class="col-sm-4">
 			<img src="<?php bloginfo('template_directory');?>/img/contact-pedicab.jpg" alt="Contact Main Street Pedicabs">
@@ -91,7 +91,7 @@
 		
 	</div><!-- .container -->
 	
-	<div class="container" id="bottom-stripe">
+	<div id="bottom-stripe">
 		
 		<div class="col-md-8">
 			<ul>
@@ -111,6 +111,9 @@
 		
 	
 	</footer>
+	
+</div><!-- .container from header.php-->
+</div><!-- #content .site-content -->
 
 </div> <!-- #page -->
 

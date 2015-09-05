@@ -62,15 +62,15 @@
 			<!--Logo in header -->
 			<div id="yellow-bar">
 				<div class="container">
-					<p>Call us at 303-295-3822 or 303-656-0103</p>
 					<p>My Account</p>
+					<p>Call us at 303-295-3822</p>
 				</div>
 				
 			</div>
 				
 			<div id="top-logo">
-				<a href="<?php home_url(); ?>">
-					<img src="http://www.pedicab.com/images/main-street-pedicabs-header.jpg">
+				<a href="/Local-Wordpress/Test-site/">
+					<img src="<?php bloginfo('template_directory');?>/img/pedicabs-header.jpg">
 				</a>
 			</div>
 				
@@ -96,7 +96,7 @@
 				  
 				  <ul class="nav navbar-nav">
 					<li class="col-md-2">
-						<a href="/Local-Wordpress/Test-site/">About</a>
+						<a href="/Local-Wordpress/Test-site/about">About</a>
 					</li>
 					<li class="col-md-2">
 						<a href="/Local-Wordpress/Test-site/pedicabs">Pedicabs</a>
@@ -152,3 +152,5 @@
 		
 		
 		<div id="content" class="site-content">
+		
+		<div class="container">	
